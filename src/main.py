@@ -1,7 +1,7 @@
 import streamlit as st
 from analisisPenal import chain
 
-st.title("Análisis de Sentencias Penales")
+st.title("Preguntale a la corte constitucional de Colombia")
 st.write("Este sistema permite realizar consultas basadas en el análisis de sentencias de la Corte Constitucional de Colombia.")
 
 query = st.text_input("Escribe tu pregunta sobre las sentencias:")
