@@ -1,83 +1,65 @@
-# Archivo streamlit_app.py
-
 import streamlit as st
-import os
-from pymongo import MongoClient
-from dotenv import load_dotenv
-from langchain_mongodb import MongoDBAtlasVectorSearch
-from langchain_community.document_loaders.mongodb import MongodbLoader
-from langchain.embeddings import OpenAIEmbeddings
-from langchain_core.prompts import ChatPromptTemplate
-from langchain_openai import ChatOpenAI
-from langchain_core.output_parsers import StrOutputParser
-from langchain_core.runnables import RunnablePassthrough
+from analisisPenal import chain, diccionario_relatorias
+import pandas as pd
 
-# Cargar variables de entorno
-load_dotenv()
+st.title("Análisis de Sentencias Penales - Corte Constitucional")
 
-# Configuración de la página
-st.set_page_config(page_title="Consulta de Sentencias", layout="centered")
-st.title("Consulta de Sentencias de la Corte Constitucional")
+st.sidebar.header("Buscar Sentencias")
+termino_de_busqueda = st.sidebar.text_input("Ingrese el término de búsqueda", "")
 
-# Input del término de búsqueda y botones para iniciar scraping y consulta
-with st.sidebar:
-    termino_de_busqueda = st.text_input("Ingrese el término de búsqueda para scraping")
-    if st.button("Buscar y almacenar sentencias"):
-        # Nota: Aquí no estamos ejecutando el scraping en Streamlit para evitar duplicar el código
-        st.warning("Ejecute el código de scraping antes de iniciar Streamlit")
-
-# Conexión a MongoDB para cargar datos
-@st.cache_resource
-def load_data():
-    client = MongoClient(os.environ['MONGODB_URI'])
-    loader = MongodbLoader(
-        connection_string=os.environ['MONGODB_URI'],
-        db_name=os.environ['MONGODB_DB'],
-        collection_name=os.environ['MONGODB_COLLECTION']
-    )
-    return loader.load()
-
-# Función para realizar la consulta
-def consulta_sentencias(query):
-    # Configuración de embeddings y carga de documentos
-    embeddings = OpenAIEmbeddings(model="text-embedding-ada-002")
-    docs = load_data()
-    client = MongoClient(os.environ['MONGODB_URI'])
-    collection = client.get_database(os.environ['MONGODB_DB']).get_collection(os.environ['MONGODB_COLLECTION'])
-
-    # Crear el índice vectorial para búsqueda
-    vectorStore = MongoDBAtlasVectorSearch.from_documents(
-        documents=docs,
-        embedding=embeddings,
-        collection=collection,
-        index_name=os.environ['MONGODB_VECTOR_INDEX']
-    )
-    
-    retriever = vectorStore.as_retriever(search_kwargs={"similarity_threshold": 0.1})
-    
-    # Plantilla de prompt
-    prompt = ChatPromptTemplate.from_template("""
-    En la información proporcionada, actúe como magistrado de la Corte Constitucional y responda a la pregunta.
-    {context}
-    Question: {question}
-    """)
-    
-    model = ChatOpenAI(temperature=0, model="gpt-4o")
-    chain = {"context": retriever, "question": RunnablePassthrough()} | prompt | model | StrOutputParser()
-    
-    # Ejecutar la consulta
-    result = chain.invoke(query)
-    return result
-
-# Input para consulta de sentencias
-query = st.text_input("Ingrese su pregunta sobre una sentencia")
-
-# Botón para realizar la consulta y mostrar resultado
-if st.button("Consultar sentencias"):
-    if query:
-        with st.spinner("Consultando..."):
-            resultado = consulta_sentencias(query)
-        st.write("### Resultado de la consulta")
-        st.write(resultado)
+if st.sidebar.button("Buscar Sentencias"):
+    if termino_de_busqueda.strip():
+        st.sidebar.success(f"Buscando sentencias con el término: {termino_de_busqueda}...")
+        st.sidebar.warning("El análisis puede tomar unos minutos")
+        st.session_state.termino = termino_de_busqueda.strip()
     else:
-        st.warning("Ingrese una pregunta para realizar la consulta")
+        st.sidebar.error("Por favor, ingrese un término de búsqueda válido")
+
+if 'termino' in st.session_state:
+    termino_de_busqueda = st.session_state.termino
+    st.sidebar.info("Resultados encontrados:")
+
+    if diccionario_relatorias:
+        for enlace, texto in diccionario_relatorias:
+            st.success(f"Enlace {enlace: , len(diccionario_relatorias, t)}")
+    else:
+        st.error("No se encontraron resultados para este término")
+
+st.subheader("Chat para Ánalisis de Sentencias")
+if 'chat_history' not in st.session_state:
+    st.session_state.chat_history = []
+
+user_input = st.text_input("Haz tu pregunta sobre las sentencias disponibles: ")
+
+if st.button("Enviar"):
+    if user_input.strip():
+        st.session_state.chat_history.append({"role": "user", "content": user_input})
+
+        with st.spinner("Analizando la respuesta..."):
+            try:
+                result = chain.invoke(user_input)
+                st.session_state.chat_history.append(
+                    {"role": "assistant", "content": result}
+                )
+            except Exception as e:
+                st.session_state.chat_history.append(
+                    {"role": "assistant", "content": f"Error al procesar la pregunta: {e}"}
+                )
+
+    else:
+        st.error("Por favor, ingrese una pregunta válida")
+
+# Mostrar el historial del chat
+for message in st.session_state.chat_history:
+    if message["role"] == "user":
+        st.markdown(f"**Usuario:** {message['content']}")
+    else:
+        st.markdown(f"**Asistente:** {message['content']}")
+
+st.sidebar.info(
+    """
+    Esta herramienta utiliza modelos de lenguaje para analizar y extraer información
+    clave de sentencias de la Corte Constitucional. Puedes buscar sentencias específicas
+    y hacer preguntas relacionadas.
+    """
+)
