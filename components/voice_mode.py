@@ -78,7 +78,7 @@ def main() -> None:
     args = parser.parse_args()
 
     timestamp = datetime.now().strftime("%Y%m%d-%H%M%S")
-    output_file = f"data/record-{timestamp}.wav"
+    output_file = f"record-{timestamp}.wav"
     record_audio(output_file, verbose=True)
     transcript = transcribe_audio(output_file, verbose=True, use_local=args.local)
     topics = detect_topic(transcript, params)
