@@ -72,3 +72,6 @@ Esta parte permite al analista **emitir un juicio crítico** y desarrollar su pr
 - **Comentario Jurídico**: Fomentar el **pensamiento crítico** y la capacidad de argumentación del analista, incentivando un análisis más profundo y personal de la sentencia.
 
 Este esquema ayuda a estudiantes y profesionales a desglosar y comprender todos los elementos esenciales de una **sentencia de tutela**, facilitando un análisis completo y profundo que abarca desde la identificación de los elementos básicos hasta un juicio crítico sobre la decisión tomada.
+
+# Referencias
+1. [Método para el análisis de sentencias de la Corte Constitucional de Colombia]([url](https://youtu.be/YynxpMJHfHw?si=1FZNSM0E7EHCpnmW))
