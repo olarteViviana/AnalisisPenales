@@ -16,11 +16,14 @@ from langchain_openai import ChatOpenAI
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.runnables import RunnablePassthrough
 from langchain_ollama import ChatOllama
+from langchain_groq import ChatGroq
+
 
 load_dotenv()
 os.environ["USER_AGENT"] = "MyApp/1.0"
 os.environ["OPENAI_API_KEY"] = os.getenv('OPENAI_API_KEY')
 os.environ["LANGCHAIN_API_KEY"] = os.getenv('LANGCHAIN_API_KEY')
+os.environ["GROQ_API_KEY"] = os.getenv('GROQ_API_KEY')
 client = pymongo.MongoClient(os.environ['MONGODB_URI'])
 collections = client.get_database(os.environ['MONGODB_DB']).get_collection(os.environ['MONGODB_COLLECTION'])
 
@@ -173,8 +176,8 @@ def configurar_modelo():
     """
     prompt = ChatPromptTemplate.from_template(template)
 
-    model = ChatOpenAI(temperature=0, model="gpt-4o")
-
+    #model = ChatOpenAI(temperature=0, model="gpt-4o")
+    model = ChatGroq(temperature=0, model="llama-3.1-70b-versatile")
     # Local LLM
     ollama_llm = "phi3.5"
     model_local = ChatOllama(model=ollama_llm)
