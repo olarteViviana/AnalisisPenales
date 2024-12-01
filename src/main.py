@@ -100,6 +100,9 @@ def main():
             st.sidebar.warning("El análisis puede tomar unos minutos")
             with st.spinner("Realizando la búsqueda..."):
                 try:
+                    # Limpiar el historial y la cadena anterior
+                    st.session_state.chat_history = []
+                    clear_collection()
                     diccionario_relatorias = scraping_sentencias(termino_de_busqueda)
                     st.session_state.chain = initialize_chain()
                     st.sidebar.success("Búsqueda completada")
