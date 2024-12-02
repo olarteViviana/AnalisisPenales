@@ -125,6 +125,12 @@ def main():
     if 'chat_history' not in st.session_state:
         st.session_state.chat_history = []
 
+    # Agregar un botón para limpiar el historial
+    if st.button("Limpiar historial"):
+        st.session_state.chat_history = []
+        st.session_state.text_input = ""
+        st.rerun()
+
     # Chat input
     with st.container():
         col1, col2 = st.columns([4, 1])
@@ -175,6 +181,9 @@ def main():
                         st.session_state.chat_history.append(
                             {"role": "assistant", "content": result}
                         )
+                        # Limpiar el input después de procesar la pregunta
+                        st.session_state.text_input = ""
+                        st.rerun()
                 except Exception as e:
                     st.session_state.chat_history.append(
                         {"role": "assistant", "content": f"Error al procesar la pregunta: {e}"}
