@@ -1,0 +1,562 @@
+Quiero un análisis jurídico profesional teniendo en cuenta lo siguiente:
+    1. Recordar
+    Reglas principales:
+    1.	La IA debe identificar y recuperar información relevante basada en palabras clave específicas.
+    2.	Priorizar sentencias o datos con mayor impacto jurídico o relevancia actual.
+    3.	Presentar información de forma cronológica para facilitar el análisis contextual.
+    Subreglas:
+    1.	Identificar metadatos relacionados con los hechos relevantes de cada caso.
+    2.	Jerarquizar resultados según precedentes constitucionales y penales.
+    3.	Resaltar normativas aplicables en el momento de los hechos.
+    4.	Establecer conexiones entre sentencias similares.
+    5.	Garantizar una actualización continua de los repositorios.
+    2. Comprender
+    Reglas principales:
+    1.	Interpretar los conceptos jurídicos en el contexto específico planteado por el usuario.
+    2.	Relacionar elementos normativos y su aplicación en casos previos.
+    3.	Proveer explicaciones simplificadas y técnicas según el nivel de comprensión del usuario.
+    Subreglas:
+    1.	Identificar el propósito de la solicitud del usuario.
+    2.	Analizar cómo las normas constitucionales impactan el caso planteado.
+    3.	Establecer paralelismos entre las solicitudes y la jurisprudencia.
+    4.	Reconocer posibles áreas de ambigüedad en los términos legales.
+    5.	Integrar fuentes secundarias (doctrinas, tratados) para enriquecer la comprensión.
+    3. Aplicar
+    Reglas principales:
+    1.	Utilizar los datos recuperados para sugerir soluciones legales concretas.
+    2.	Identificar normas específicas que sean aplicables al caso planteado.
+    3.	Recomendar procedimientos jurídicos acordes con las necesidades del usuario.
+    Subreglas:
+    1.	Mapear procesos judiciales basados en casos similares.
+    2.	Considerar variables contextuales (sociales, económicas, culturales).
+    3.	Simular posibles escenarios legales según la normativa vigente.
+    4.	Emitir sugerencias basadas en jurisprudencias de unificación.
+    5.	Priorizar la aplicabilidad inmediata de las soluciones propuestas.
+    4. Analizar
+    Reglas principales:
+    1.	Examinar los patrones en la jurisprudencia para identificar tendencias.
+    2.	Identificar contradicciones o conflictos normativos.
+    3.	Evaluar la validez de los argumentos jurídicos presentados.
+    Subreglas:
+    1.	Detectar inconsistencias en las decisiones previas de las altas cortes.
+    2.	Establecer relaciones entre elementos normativos aparentemente dispares.
+    3.	Identificar cambios en la interpretación jurídica a lo largo del tiempo.
+    4.	Valorar los impactos potenciales de las decisiones jurídicas.
+    5.	Integrar herramientas estadísticas para evaluar probabilidades jurídicas.
+    5. Crear
+    Reglas principales:
+    1.	Generar argumentos jurídicos originales basados en datos.
+    2.	Proponer soluciones innovadoras para problemas legales complejos.
+    3.	Diseñar estructuras documentales (demandas, tutelas) listas para revisión.
+    Subreglas:
+    1.	Identificar lagunas normativas que puedan abordarse mediante argumentación creativa.
+    2.	Usar el análisis histórico-jurídico para sustentar nuevas hipótesis legales.
+    3.	Redactar propuestas claras y precisas basadas en la normativa existente.
+    4.	Evaluar la viabilidad de las soluciones planteadas en contextos reales.
+    5.	Sugerir áreas de reforma jurídica basadas en las tendencias identificadas.
+    6. Evaluar
+    Reglas principales:
+    1.	Medir la efectividad de las soluciones legales propuestas.
+    2.	Comparar los resultados del análisis con casos previos resueltos.
+    3.	Identificar áreas de mejora en el manejo de datos y generación de respuestas.
+    Subreglas:
+    1.	Analizar la congruencia entre la solución propuesta y el marco legal vigente.
+    2.	Reconocer posibles errores o sesgos en los resultados generados por la IA.
+    3.	Comparar decisiones sugeridas con las emitidas por las altas cortes.
+    4.	Validar la conformidad ética y normativa de las soluciones.
+    5.	Establecer métricas de éxito para futuros desarrollos.
+    7. Reinventar
+    Reglas principales:
+    1.	Replantear las estrategias de interacción entre humano e IA según los resultados previos.
+    2.	Diseñar nuevas metodologías para mejorar el rendimiento del sistema.
+    3.	Innovar en el enfoque de los problemas legales abordados.
+    Subreglas:
+    1.	Identificar áreas de oportunidad en el diseño del sistema.
+    2.	Incluir elementos no tradicionales (psicología, sociología) en el análisis.
+    3.	Revisar constantemente la taxonomía utilizada.
+    4.	Implementar mecanismos para la retroalimentación del usuario.
+    5.	Diseñar nuevas aplicaciones legales basadas en la evolución normativa.
+    Esta estructura metodológica no solo permite sistematizar el conocimiento legal, sino que también abre un camino hacia el desarrollo de un diálogo significativo entre las capacidades interpretativas humanas y el potencial de las inteligencias artificiales. Continuaremos con la implementación práctica de estas categorías y sus reglas en los próximos apartados.
+    Categoría 1: Recordar
+    Subregla 1: Identificar metadatos relacionados con los hechos relevantes de cada caso.
+    Simulación del diálogo:
+    "Chat, necesito que realices una búsqueda exhaustiva de las sentencias de la Corte Constitucional relacionadas con el derecho fundamental al derecho de petición. Por favor, organiza los resultados en un cuadro cronológico y asegúrate de incluir las siguientes columnas: número de sentencia, magistrado ponente, hechos relevantes, conceptos limitantes, elementos normativos analizados y precedentes relacionados. Además, identifica cualquier evolución conceptual respecto a este derecho a lo largo del tiempo para facilitar un análisis comparativo."
+    Categoría 1: Recordar
+    Subregla 2: Jerarquizar resultados según precedentes constitucionales y penales.
+    Simulación del diálogo:
+    "Chat, necesito que identifiques las sentencias más relevantes de la Corte Suprema de Justicia en materia de homicidio culposo. Organiza los resultados en un ranking, priorizando aquellas decisiones que hayan sentado precedentes de unificación. Para cada caso, incluye el año, el expediente, el magistrado ponente, los fundamentos jurídicos principales y cómo estos se relacionan con el principio de la culpabilidad y la teoría del error. Adicionalmente, señala las referencias cruzadas con otras sentencias vinculadas a este tipo penal."
+    Esto permitirá que la IA recupere los datos más significativos y los estructure jerárquicamente, ofreciendo al usuario información organizada y destacando las decisiones con mayor impacto jurídico.
+    Categoría 1: Recordar
+    Subregla 1: Resaltar normativas aplicables en el momento de los hechos.
+    Simulación del diálogo:
+    "Chat, necesito que identifiques todas las sentencias de tutela relacionadas con la protección del medio ambiente en casos de minería ilegal. Para cada sentencia, resalta las normativas nacionales e internacionales vigentes en el momento de los hechos, incluyendo los artículos de la Constitución Política, leyes ambientales aplicables y cualquier tratado internacional ratificado por Colombia. Organiza esta información en un esquema claro que permita comprender el marco normativo que fundamentó cada decisión judicial."
+    Síntesis:
+    Esto permitirá que la IA extraiga y presente de manera precisa las normativas relevantes en cada caso, brindando al usuario un marco normativo contextualizado que respalde el análisis de los fallos y facilite la toma de decisiones o investigaciones posteriores.
+    Categoría 1: Recordar
+    Subregla 1: Establecer conexiones entre sentencias similares.
+    Simulación del diálogo:
+    "Chat, necesito que busques todas las sentencias relacionadas con las causales de ausencia de responsabilidad penal según el artículo 32 del Código Penal colombiano. Identifica aquellas que desarrollen fundamentos jurídicos similares o argumenten sobre situaciones como el estado de necesidad, la legítima defensa o el cumplimiento de un deber legal. Organiza las sentencias en grupos temáticos según la causal aplicada y especifica, en cada caso, si la causal elimina la conducta, la tipicidad, la antijuridicidad o la culpabilidad. Además, resalta los casos más relevantes por su impacto jurídico o social."
+    Síntesis:
+    Esto permitirá que la IA no solo conecte sentencias con fundamentos coincidentes, sino también que clasifique las causales según su impacto en los elementos estructurales del delito, ofreciendo al usuario una herramienta precisa para analizar cómo se aborda la responsabilidad penal en diferentes contextos.
+    Categoría 1: Recordar
+    Subregla 1: Garantizar una actualización continua de los repositorios.
+    Simulación del diálogo:
+    "Chat, necesito que explores los repositorios legales para identificar las sentencias más recientes y relevantes relacionadas con el delito de feminicidio, considerando los nuevos enfoques y la perspectiva de género. Asegúrate de incluir sentencias que aborden aspectos como violencia estructural, interseccionalidad, o análisis de patrones socioculturales que perpetúan la violencia de género. Además, organiza los resultados cronológicamente para reflejar la evolución en el tratamiento jurídico y resalta aquellos fallos que han establecido precedentes significativos en el contexto colombiano."
+    Síntesis:
+    Esto permitirá que la IA mantenga actualizados los repositorios con las decisiones más recientes, facilitando un análisis cronológico que evidencie la evolución en la aplicación de la perspectiva de género en los casos de feminicidio y permitiendo identificar cambios paradigmáticos en la jurisprudencia.
+    Categoría 2: Comprender
+    Subregla 1: Identificar el propósito de la solicitud del usuario.
+    Simulación del diálogo:
+    "Chat, necesito que analices los casos relacionados con la libertad por vencimiento de términos en el marco del Código de Procedimiento Penal colombiano, específicamente en lo que respecta a las interpretaciones del artículo 317. Identifica si la solicitud del usuario busca evaluar la legalidad del acto procesal, determinar si existió dilación injustificada por parte de las autoridades o explorar precedentes sobre los criterios que se han aplicado para conceder o denegar la libertad. Además, destaca cualquier sentencia que haya generado discusión o nuevas directrices en esta materia."
+    Síntesis:
+    Esto permitirá que la IA interprete con precisión el propósito de la consulta, adaptándose a los intereses del usuario, ya sea un análisis técnico, una búsqueda de precedentes o una evaluación crítica de los fundamentos jurídicos aplicados, asegurando resultados pertinentes y útiles en el tema de la libertad por vencimiento de términos.
+    Categoría 2: Comprender
+    Reglas principales:
+    1. Relacionar elementos normativos y su aplicación en casos previos.
+    Subregla:
+    1. Analizar cómo las normas constitucionales impactan el caso planteado.
+    Simulación del diálogo:
+    "Chat, necesito que analices la Sentencia T-459 de 2024 de la Corte Constitucional, específicamente consultando la Relatoría de la Corte, que es el repositorio oficial donde se publican las decisiones, boletines y noticias relevantes de esta alta corte en Colombia. Debes entender que la solicitud implica identificar los hechos jurídicamente relevantes, los cuales son aquellos hechos supremos que se derivan directamente de los medios de prueba. Asimismo, debes entender que los medios de prueba pueden clasificarse como documentales, testimoniales, periciales u otros. Es fundamental que señales qué medios de prueba se utilizaron para construir los hechos relevantes y cómo estos se vinculan con las normas aplicadas.
+    Debes interpretar la sentencia considerando los diferentes tipos de interpretación jurídica que podrían haberse empleado, como la interpretación gramatical, lógica, sistemática, teleológica o con enfoque de género, y debes establecer cuáles de estas se aplicaron en el caso concreto. Adicionalmente, analiza cómo las normas constitucionales relacionadas con el acceso a la justicia, el debido proceso y la igualdad influyeron en la decisión de proteger los derechos fundamentales de la accionante, revocar la sentencia del Tribunal Superior del Distrito Judicial de Ibagué y ordenar su libertad inmediata.
+    Finalmente, debes entender que se requiere evaluar cómo los defectos identificados (procedimental absoluto, fáctico, sustantivo y de violación directa de la Constitución) impactaron la sentencia y cómo el enfoque de género fue determinante en la resolución del caso, considerando los artículos 13 y 43 de la Constitución y los tratados internacionales relacionados con la erradicación de la violencia contra la mujer."
+    Síntesis:
+    Esto permitirá que la IA no solo identifique los elementos normativos, hechos relevantes y medios de prueba involucrados, sino que también los analice desde una perspectiva lógica, organizada y adaptada al propósito de la consulta. Al incluir interpretaciones jurídicas y su aplicación en contextos específicos, se garantizará una comprensión profunda de cómo la Corte Constitucional abordó los defectos judiciales y aplicó el enfoque de género en esta sentencia, ofreciendo al usuario un análisis integral, técnico y fundamentado.
+    Categoría 2: Comprender
+    Reglas principales:
+    1.	Proveer explicaciones simplificadas y técnicas según el nivel de comprensión del usuario.
+    Subregla
+    2.	Establecer paralelismos entre las solicitudes y la jurisprudencia, accediendo, al sitio web de la Relatoría de la Corte Constitucional para obtener las fuentes pertinentes.
+    Simulación del diálogo:
+    "Chat, necesito que analices la Sentencia T-145/17 de la Corte Constitucional en Colombia. Debes entender que, para llevar a cabo este análisis, es fundamental identificar los hechos jurídicamente relevantes, es decir, aquellos hechos supremos que se desprenden directamente de los medios de prueba, que pueden ser documentales, testimoniales, periciales o de otra índole.
+    Además, debes analizar cómo la Corte aplicó los principios constitucionales y el enfoque de género al abordar el caso. Es importante que entiendas que el defecto fáctico, como causal específica de procedibilidad en la acción de tutela contra providencias judiciales, incluye tanto la dimensión negativa como la positiva. Esto significa que debes identificar las pruebas que fueron indebidamente valoradas o ignoradas y cómo ello influyó en la vulneración de los derechos fundamentales.
+    Por ejemplo, en este caso particular, examina cómo la Corte determinó que la revocación de la orden de desalojo del agresor en un caso de violencia doméstica constituyó un defecto fáctico por indebida valoración probatoria. Adicionalmente, analiza cómo el precedente judicial sobre protección a la mujer frente a la violencia fue ignorado o inaplicado y cómo la Corte corrigió este error.
+    Debes también identificar los instrumentos jurídicos internacionales y nacionales que protegen a las mujeres contra la violencia, incluyendo cómo la perspectiva de género orientó las actuaciones judiciales en este caso. Por último, debes establecer paralelismos con otros casos similares para destacar la importancia de la protección especial de la mujer como sujeto de derechos fundamentales.".
+    Síntesis:
+    El análisis permite contextualizar los conceptos clave de la sentencia, como el defecto fáctico, el precedente judicial, y el enfoque de género, brindando explicaciones detalladas pero comprensibles. Este enfoque garantiza que el usuario no solo obtenga una interpretación técnica de la sentencia, sino también una comprensión más clara de su relevancia y aplicación en casos concretos de protección a la mujer frente a la violencia.
+    Categoría 2: Comprender 
+    Reglas principales
+    Proveer explicaciones detalladas que combinen simplificación técnica con precisión jurídica, adaptadas al nivel de comprensión del usuario.
+    Subregla
+    Incorporar mecanismos lógicos avanzados (como condicionales "si-entonces", "doble condicional" o "disyuntiva") para analizar volúmenes de información complejos y filtrar datos irrelevantes.
+    Desarrollar un análisis completo basado en los hechos, los medios de prueba, los derechos amenazados o vulnerados y el problema jurídico central, relacionándolos con normas constitucionales, leyes vigentes y tratados internacionales.
+    Utilizar herramientas de consulta específicas, como el sitio de Relatoría de la Corte Constitucional, para extraer sentencias clave y garantizar la solidez del análisis.
+    Simulación del diálogo:
+
+    “Chat, para la Sentencia T-145/17 de la Corte Constitucional, y las sentencias relacionadas desde el año 2020 hasta el 2024 sobre acoso sexual infantil (como la T-124/24), quiero que estructures un análisis que contemple lo siguiente:
+    Superestructura de la sentencia:
+    Explica que las sentencias se desarrollan a partir de una superestructura lógica. Esta incluye una introducción, el planteamiento de los hechos, los problemas jurídicos, el análisis de los derechos amenazados o vulnerados, las consideraciones de fondo y la decisión. La estructura permite desglosar el razonamiento de la Corte y facilita la comprensión de cómo se llegó a la solución jurídica.
+    Condicionales lógicos:
+    Debes aplicar condicionales como “si-entonces” o “doble condicional” para interpretar las conexiones entre hechos, pruebas y decisiones. Por ejemplo: Si el juez omite valorar pruebas determinantes, entonces se configura un defecto fáctico por omisión probatoria; si los derechos vulnerados son fundamentales (vida, dignidad, igualdad), entonces el análisis debe incluir su relación con la Constitución y tratados internacionales.
+    Análisis de hechos:
+    Identifica los hechos relevantes con base en las condiciones del clima, la fecha, el lugar, la hora, el modo de ocurrencia, y los sujetos involucrados (personas naturales o jurídicas). Este análisis es fundamental porque permite ubicar el contexto de los derechos vulnerados y delimitar el problema jurídico.
+    Medios de prueba:
+    Detalla cómo las pruebas (documentales, testimoniales, periciales) sustentan la existencia de los hechos y su relación con el problema jurídico. Por ejemplo, en el caso T-145/17, examina qué pruebas respaldaron la denuncia de violencia doméstica y cómo se valoraron.
+    Identificación de derechos vulnerados:
+    Reconoce los derechos afectados (vida, dignidad humana, integridad física) y su protección en la Constitución de 1991, las leyes colombianas, y los tratados internacionales. En el caso de violencia doméstica, identifica los mecanismos legales para proteger a las mujeres como sujetos de especial protección.
+    Problema jurídico:
+    Define el problema jurídico como la discusión sobre la aplicación, interpretación o protección de los derechos en el caso específico. Por ejemplo, en la T-145/17, el problema jurídico podría centrarse en si la revocación de la orden de desalojo del agresor desconoció los derechos fundamentales de la mujer y su protección especial.
+    Filtros y relevancia:
+    Para evitar información irrelevante, establece filtros temáticos que aseguren que los datos recuperados estén directamente relacionados con el nicho situacional (como acoso sexual infantil o violencia de género). Asegúrate de que el sistema resuelva consultas complejas en menos de tres segundos, pero con la precisión de un análisis humano realizado en semanas o meses.
+    Consulta avanzada:
+    Recupera las sentencias de tutela de 2020 a 2024 relacionadas con acoso sexual infantil y selecciona las 7 fundamentales (incluyendo la T-124/24). Presenta un resumen de cada una y explica cómo se alinean con las garantías constitucionales y los principios de protección a los menores.
+    Síntesis de la instrucción:
+    El análisis debe ser minucioso, basado en hechos, pruebas y lógica jurídica. Utiliza condicionales y filtros avanzados para garantizar que los datos sean precisos y relevantes, y aplica siempre un enfoque centrado en la protección de derechos fundamentales. El objetivo es construir un sistema que procese de manera casi instantánea información compleja sin perder el rigor y la profundidad del análisis jurídico tradicional.
+    Categoría 2: Comprender
+    Reglas principales:
+    •	Interpretar conceptos jurídicos en el contexto específico planteado por el usuario, proporcionando claridad y aplicabilidad en el marco de los precedentes judiciales.
+    •	Identificar precedentes sólidos y vinculantes que protejan el derecho al libre desarrollo de la personalidad, especialmente en el contexto de la jurisprudencia constitucional colombiana.
+    Subreglas:
+    •	Reconocer áreas de ambigüedad en términos legales o contextuales, como la definición de "libre desarrollo de la personalidad" en situaciones concretas (por ejemplo, elección de identidad de género, prácticas culturales, estilo de vida o decisiones individuales).
+    •	Proporcionar un marco interpretativo robusto que aborde estas ambigüedades, basándose en normas constitucionales, principios internacionales de derechos humanos y jurisprudencia de la Corte Constitucional de Colombia.
+    •	Contextualizar los derechos fundamentales en conflicto o tensión con el libre desarrollo de la personalidad, como el orden público, los derechos de terceros o la protección de menores.
+    •	Utilizar sentencias de tutela representativas y vinculantes para desarrollar un análisis comparativo entre casos similares y garantizar la aplicación consistente del derecho.
+    Simulación de Instrucción:
+    "Para analizar las sentencias de tutela relacionadas con la protección del derecho al libre desarrollo de la personalidad, particularmente aquellas que establecen precedentes sólidos y vinculantes, utiliza el siguiente enfoque sistemático y enriquecido:
+    1. Contexto de análisis jurídico:
+    Superestructura de las sentencias: Presenta el análisis de la estructura lógica de las decisiones, comenzando con los hechos del caso, la identificación de derechos fundamentales en juego, el problema jurídico, las consideraciones de la Corte y la decisión final.
+    Reconocimiento de posibles ambigüedades: Define áreas donde el concepto de libre desarrollo de la personalidad podría entrar en conflicto con otros intereses, como normas culturales, derechos colectivos o limitaciones constitucionales razonables.
+    2. Hechos del caso:
+    Describe de manera acuciosa las condiciones contextuales del caso:
+    Fecha, lugar, hora y circunstancias relevantes.
+    Sujetos involucrados (naturales o jurídicos).
+    Relación de los hechos con el derecho vulnerado o amenazado.
+    Por ejemplo: En casos relacionados con la identidad de género, describe cómo los hechos afectan directamente la autonomía y dignidad de la persona.
+    3. Identificación de derechos:
+    Enumera los derechos fundamentales comprometidos:
+    El libre desarrollo de la personalidad (Art. 16, Constitución de 1991).
+    La dignidad humana (Art. 1).
+    Derechos relacionados, como la igualdad (Art. 13) y la protección de la intimidad (Art. 15).
+    Analiza cómo estos derechos interactúan y se ponderan en el caso específico.
+    4. Marco normativo y jurisprudencial:
+    Incluye:
+    Normas constitucionales: Artículos de la Constitución de 1991 que respaldan el libre desarrollo de la personalidad.
+    Tratados internacionales: Instrumentos como el Pacto Internacional de Derechos Civiles y Políticos o la Convención Americana sobre Derechos Humanos.
+    Jurisprudencia clave: Sentencias representativas de la Corte Constitucional, como:
+    T-477/95: Reconocimiento de la autonomía individual en decisiones personales.
+    T-498/20: Protección de la identidad de género como componente del libre desarrollo de la personalidad.
+    T-124/24: Conflictos entre libertades individuales y derechos colectivos.
+    5. Análisis del problema jurídico:
+    Define el problema jurídico central, estructurándolo como una pregunta de derechos en conflicto. Por ejemplo:
+    ¿El rechazo de una institución educativa a reconocer la identidad de género de un estudiante vulnera su derecho al libre desarrollo de la personalidad?
+    ¿Cuándo pueden limitarse las decisiones personales por razones de orden público o protección de menores?
+    6. Uso de medios de prueba y razonamiento lógico:
+    Detalla los medios probatorios (testimonios, documentos, dictámenes) que fundamentaron la decisión.
+    Emplea condicionales lógicos para analizar los argumentos de la Corte:
+    Si el derecho al libre desarrollo de la personalidad es esencial para la dignidad humana, entonces cualquier restricción debe estar debidamente justificada.
+    7. Construcción de precedentes:
+    Identifica precedentes sólidos y vinculantes, como las sentencias mencionadas.
+    Resume los criterios adoptados por la Corte, como el principio de autonomía personal y los límites razonables basados en el interés general.
+    8. Recomendaciones y conclusiones:
+    Propón cómo aplicar los precedentes a casos futuros similares.
+    Sugiere mejoras en la protección jurídica del libre desarrollo de la personalidad en áreas como políticas educativas, procedimientos administrativos y legislación específica.
+    Síntesis:
+    El análisis debe ser integral, considerando los hechos, derechos, pruebas y el marco normativo. El objetivo es garantizar que el estudio de las sentencias sea detallado, relevante y basado en precedentes sólidos, permitiendo una interpretación consistente y práctica del derecho al libre desarrollo de la personalidad.
+    Categoría 2: Comprender
+    Reglas principales:
+    Proveer explicaciones que integren tanto elementos simplificados como aspectos técnicos avanzados, adaptándose al nivel de comprensión del usuario en relación con el análisis de sentencias de tutela sobre el derecho al debido proceso.
+    Orientar al usuario en la interpretación lógica y secuencial de las sentencias, permitiendo identificar las interacciones entre los hechos, los derechos vulnerados y las decisiones judiciales.
+    Subreglas:
+    Incorporar fuentes secundarias como doctrinas, tratados internacionales y análisis doctrinal de expertos, con el fin de complementar la comprensión y enriquecer los análisis.
+    Aplicar un enfoque sistemático que incluya los principios de razonamiento lógico (condicionales "si... entonces" y doble condicional) para estructurar el análisis de los argumentos judiciales y su coherencia normativa.
+    Simulación de Instrucción:
+    "Para comprender las sentencias de tutela sobre el derecho al debido proceso, particularmente aquellas que establecen precedentes sólidos en el marco jurídico colombiano, utiliza el siguiente enfoque lógico y orientador:
+    1. Contexto de análisis jurídico:
+    Superestructura de las sentencias:
+    Explica cómo se organizan las decisiones judiciales, empezando por los hechos, los derechos fundamentales involucrados, el problema jurídico, los razonamientos de la Corte y la decisión.
+    Identificación del núcleo del debido proceso:
+    Desglosa el contenido del debido proceso en componentes esenciales como:
+    Derecho de defensa.
+    Acceso a pruebas y contradicción.
+    Impedimentos e inhabilidades judiciales.
+    Motivación de las decisiones judiciales.
+    2. Hechos relevantes del caso:
+    Describe detalladamente:
+    Sujetos: Partes involucradas (demandante y demandado, personas naturales o jurídicas).
+    Circunstancias: Fecha, lugar, modo y contexto del conflicto.
+    Conexión con el debido proceso: ¿Cómo los hechos muestran una posible vulneración del debido proceso?
+    3. Identificación de derechos comprometidos:
+    Reconoce los derechos fundamentales asociados al debido proceso, como:
+    Derecho a una administración de justicia imparcial (Art. 29, Constitución de 1991).
+    Derecho de defensa y acceso a pruebas.
+    Principio de igualdad procesal.
+    Vincula estos derechos a normas internacionales, como:
+    Convención Americana sobre Derechos Humanos (Art. 8): Garantías judiciales.
+    Pacto Internacional de Derechos Civiles y Políticos (Art. 14): Derecho a un juicio justo.
+    4. Fuentes secundarias y antecedentes jurisprudenciales:
+    Integra doctrinas y tratados relevantes que refuercen el análisis, como:
+    La obra de Eduardo Couture sobre las garantías procesales.
+    La doctrina sobre la imparcialidad del juez según la Corte Interamericana de Derechos Humanos.
+    Menciona sentencias clave como:
+    T-441/92: Sobre la importancia de garantizar el principio de contradicción.
+    T-079/93: Vulneraciones al debido proceso en el ámbito administrativo.
+    SU-962/99: Reconocimiento de la importancia de la tutela para proteger derechos procesales.
+    5. Problema jurídico:
+    Formula el problema jurídico en términos de los derechos en conflicto o vulnerados. Por ejemplo:
+    ¿La falta de notificación oportuna de una decisión administrativa vulnera el derecho al debido proceso?
+    ¿Qué sucede si una autoridad judicial falla en motivar adecuadamente una sentencia?
+    Emplea condicionales para estructurar la respuesta:
+    Si una persona no tiene acceso a las pruebas en su contra, entonces se vulnera su derecho a la contradicción.
+    6. Razonamiento lógico y medios de prueba:
+    Relaciona los medios probatorios utilizados (documentos, testimonios, peritajes) con el análisis de la Corte.
+    Utiliza razonamiento lógico:
+    Si el derecho de defensa es esencial para el debido proceso, entonces cualquier limitación debe estar justificada y ser proporcional.
+    Si no se respeta el principio de imparcialidad judicial, entonces la decisión puede ser anulada.
+    7. Principios vinculantes del debido proceso:
+    Analiza cómo las sentencias aplican principios como:
+    Presunción de inocencia: Garantía frente a la carga de la prueba.
+    Proporcionalidad: Evaluación de limitaciones al debido proceso en conflictos específicos.
+    Motivación adecuada: Necesidad de justificar claramente las decisiones.
+    8. Conclusiones y recomendaciones:
+    Proporciona un resumen de los precedentes vinculantes y cómo aplicarlos en casos similares.
+    Sugiere posibles mejoras en la protección del debido proceso a través de políticas públicas o reformas normativas.
+    Síntesis:
+    El análisis debe ser integral, incorporando un enfoque lógico, el uso de fuentes secundarias y el marco normativo nacional e internacional. Este enfoque asegura que el estudio de las sentencias sea sólido, práctico y orientado a fortalecer la comprensión del debido proceso en sus múltiples dimensiones.
+    Categoría 3: Aplicar
+    Reglas principales:
+    •	Aplicar los datos recuperados y las bases jurisprudenciales para proponer soluciones legales concretas en casos de tutela relacionados con la protección de los derechos fundamentales de los niños.
+    •	Transformar los hallazgos teóricos y doctrinales en recomendaciones prácticas y procesales que sean consistentes con el marco normativo y los precedentes judiciales vigentes.
+    Subreglas:
+    	Mapear procesos judiciales basados en casos análogos para identificar patrones de protección y posibles estrategias de defensa jurídica.
+    	Proponer acciones legales concretas que garanticen medidas eficaces de reparación, prevención y protección de derechos en casos de vulneración de derechos de los niños.
+    Simulación de Instrucción prompt:
+    "Para aplicar los datos recuperados en el análisis de sentencias de tutela sobre los derechos fundamentales de los niños, sigue las siguientes instrucciones que incorporan un enfoque práctico, lógico y fundamentado en la jurisprudencia:
+    1. Contexto normativo y jurisprudencial:
+    Marco normativo nacional:
+    Constitución Política de Colombia (Art. 44): Prioridad absoluta de los derechos de los niños.
+    Ley 1098 de 2006 (Código de Infancia y Adolescencia).
+    Precedentes jurisprudenciales relevantes:
+    T-510/03: Protección integral del derecho a la educación de los niños.
+    T-406/92: El interés superior del menor como principio rector.
+    T-434/2020: Deber del Estado de proteger los derechos a la salud y la alimentación de los niños.
+    2. Identificación de hechos y contexto específico del caso:
+    Detalla los hechos del caso, considerando:
+    Circunstancias relevantes: Lugar, fecha, sujetos implicados (niño, padres o tutores, instituciones).
+    Derechos vulnerados: Salud, educación, vida, integridad, identidad, entre otros.
+    Condiciones específicas: Factores de riesgo, situaciones de violencia o abandono, barreras de acceso a servicios básicos.
+    3. Diagnóstico y análisis del problema jurídico:
+    Identifica el problema jurídico central:
+    ¿Se vulneró el derecho del niño a recibir educación gratuita y de calidad?
+    ¿Qué medidas correctivas deben tomarse para garantizar el acceso inmediato a servicios de salud esenciales?
+    Usa razonamiento lógico para estructurar el análisis:
+    Si el interés superior del niño tiene prioridad absoluta, entonces toda acción u omisión que lo afecte debe corregirse de manera inmediata.
+    Si un niño no recibe atención médica por barreras económicas, entonces se viola su derecho a la vida y a la salud.
+    4. Mapeo de procesos judiciales basados en casos similares:
+    Consulta un conjunto de sentencias análogas para identificar patrones de decisión:
+    Sentencias que ordenan medidas urgentes para restablecer derechos.
+    Casos donde se han impuesto sanciones a entidades responsables de vulnerar derechos de los niños.
+    Presenta un esquema de acciones judiciales exitosas en casos previos:
+    Requerimiento de garantías inmediatas (por ejemplo, matrícula escolar o atención médica urgente).
+    Supervisión por parte de instituciones como la Defensoría del Pueblo o el Instituto Colombiano de Bienestar Familiar (ICBF).
+    5. Propuesta de soluciones legales concretas:
+    Diseña estrategias legales que incluyan:
+    Medidas de protección inmediata:
+    Restablecimiento del derecho vulnerado, como garantizar la afiliación al sistema de salud o la asignación de cupos escolares.
+    Acciones preventivas:
+    Revisión de protocolos institucionales para evitar futuras vulneraciones.
+    Reparación integral:
+    Indemnización económica o medidas simbólicas de reparación, según el daño causado.
+    Aplica un razonamiento lógico para validar estas propuestas:
+    Si la vulneración de derechos se debe a la omisión de una entidad estatal, entonces se debe implementar una política pública que elimine estas barreras.
+    6. Recomendaciones prácticas para los operadores jurídicos:
+    Orienta a jueces y defensores en el uso de herramientas legales y normativas como:
+    Doctrinas internacionales relacionadas con el interés superior del niño (por ejemplo, la Convención sobre los Derechos del Niño).
+    Resoluciones de la Corte Constitucional sobre medidas de protección inmediata.
+    Sugiere el uso de tecnologías para acelerar los procesos judiciales, como sistemas de inteligencia artificial para analizar patrones en sentencias previas.
+    7. Ejemplo de propuesta aplicada:
+    Caso ficticio: Un niño con discapacidad no puede asistir a clases porque su colegio carece de infraestructura adecuada.
+    Soluciones propuestas:
+    Solicitar a través de una acción de tutela que se garantice el acceso inmediato a la educación inclusiva.
+    Ordenar la implementación de ajustes razonables en el colegio, respaldados por los principios de igualdad y no discriminación.
+    Establecer un monitoreo periódico por parte del ICBF para verificar el cumplimiento de la orden judicial.
+    Síntesis:
+    Este enfoque aplica los principios legales y los datos jurisprudenciales en contextos prácticos, asegurando que las soluciones sean coherentes con las normas nacionales e internacionales y promuevan la garantía efectiva de los derechos fundamentales de los niños.
+    Categoría 3: Aplicar
+    Reglas principales enriquecidas:
+    •	Identificar normas específicas nacionales e internacionales que sean aplicables al análisis de sentencias de tutela sobre discriminación laboral por género, asegurando un enfoque transversal de género y perspectiva de derechos humanos.
+    •	Recomendar procedimientos jurídicos acordes con las necesidades específicas del usuario, diseñando estrategias que incluyan reparación, prevención, y medidas correctivas.
+    Subreglas:
+    •	Considerar variables contextuales (sociales, económicas, culturales y políticas) que influyen en las dinámicas de discriminación laboral por género, tales como brechas salariales, barreras en el acceso a ascensos, hostigamiento, y violencias simbólicas.
+    •	Simular posibles escenarios legales bajo la normativa vigente, incluyendo acciones de tutela, demandas por reparación, y políticas internas de equidad laboral en instituciones públicas y privadas.
+    Instrucción:
+    "Para aplicar las reglas y subreglas en el análisis de sentencias de tutela sobre discriminación laboral por género, debes entender, procesar y resolver cada uno de los siguientes componentes desde una perspectiva holística y lógica jurídica aplicable al caso específico:
+    1. Comprender el concepto de género y sus enfoques jurídicos:
+    Entender qué es el género:
+    Construcción social de roles y expectativas asociadas a las diferencias entre hombres, mujeres y personas no binarias.
+    Diferencia entre sexo biológico y género, según doctrinas y tratados internacionales como la Convención sobre la Eliminación de Todas las Formas de Discriminación contra la Mujer (CEDAW).
+    Enfoque de género:
+    Reconocer cómo las estructuras sociales perpetúan desigualdades.
+    Evaluar si las normas y políticas laborales aplican medidas que garantizan igualdad sustantiva y no solo formal.
+    Perspectiva de género:
+    Incorporar una visión analítica que identifique cómo el género afecta las experiencias de discriminación, particularmente en contextos laborales, tales como la segregación ocupacional o el hostigamiento en el trabajo.
+    2. Comprender la discriminación laboral y sus especificidades:
+    Definición jurídica:
+    La discriminación laboral por género se refiere a cualquier trato desigual basado en prejuicios de género que afecten derechos laborales, como la igualdad salarial, el acceso a oportunidades, y un ambiente laboral libre de acoso.
+    Tipos de discriminación:
+    Directa: Cuando se niega empleo o promoción explícitamente por género.
+    Indirecta: Políticas aparentemente neutrales que desfavorecen a un género específico, como horarios inflexibles que impactan desproporcionadamente a mujeres con responsabilidades de cuidado.
+    Normas relevantes:
+    Normas internacionales: CEDAW, Convenio 100 y 111 de la OIT.
+    Normas nacionales: Constitución Política de Colombia (Art. 13, 43, 53), Ley 1257 de 2008, y Ley 1010 de 2006 (contra el acoso laboral).
+    3. Análisis del caso concreto (hechos y contexto):
+    Detalla las circunstancias del caso, considerando:
+    Hechos básicos: Identidad de las partes, descripción del conflicto laboral, fechas, y pruebas.
+    Derechos vulnerados: Igualdad, no discriminación, acceso a condiciones dignas de trabajo.
+    Variables sociales, culturales y económicas:
+    ¿El caso ocurre en un sector tradicionalmente masculinizado (ingeniería, minería) o feminizado (docencia, enfermería)?
+    ¿Qué barreras estructurales enfrentan las personas afectadas?
+    4. Identificación del problema jurídico:
+    Define con precisión el problema jurídico:
+    ¿Viola la empresa el derecho a la igualdad de una mujer al negarle ascensos sistemáticamente por ser madre?
+    ¿Se incurrió en acoso laboral basado en prejuicios de género que desincentivan la permanencia de una mujer trans en el empleo?
+    Plantea el problema en términos condicionales:
+    Si una empresa justifica salarios más bajos para mujeres argumentando menor productividad, entonces incurre en discriminación laboral directa.
+    5. Mapeo de sentencias relevantes y patrones jurisprudenciales:
+    Identifica precedentes clave:
+    T-098/2019: Protección del derecho a la igualdad y no discriminación en un caso de acoso laboral contra una mujer.
+    T-734/2017: Reconocimiento de brechas salariales como una forma de discriminación indirecta.
+    T-171/2022: La importancia de implementar perspectiva de género en entornos laborales.
+    Busca patrones en decisiones previas:
+    La Corte Constitucional suele ordenar acciones afirmativas, como la revisión de políticas laborales y la indemnización por daños causados.
+    6. Propuesta de soluciones jurídicas:
+    Acciones inmediatas:
+    Solicitar medidas cautelares para garantizar el cese de discriminación o acoso.
+    Exigir mediante acción de tutela la adopción de políticas internas de equidad de género.
+    Medidas estructurales:
+    Implementar capacitaciones en perspectiva de género para líderes empresariales.
+    Establecer un monitoreo por parte del Ministerio del Trabajo o Procuraduría.
+    Reparación integral:
+    Indemnización por perjuicios materiales e inmateriales (daño moral y psicológico).
+    7. Simulación de escenarios legales:
+    Escenario A: Discriminación salarial en una empresa.
+    Acción propuesta:
+    Demostrar la desigualdad salarial mediante pruebas documentales (contratos, nóminas) y ordenar una nivelación salarial retroactiva.
+    Escenario B: Acoso laboral por género.
+    Acción propuesta:
+    Iniciar procedimiento por acoso laboral bajo la Ley 1010, respaldado por testimonios y peritajes psicológicos.
+    8. Recomendaciones finales:
+    Requiere que el sistema jurídico incluya perspectiva de género en cada etapa del proceso judicial, desde la admisión de pruebas hasta la emisión de la sentencia.
+    Sugiere la creación de observatorios de género laborales para evaluar políticas empresariales de equidad.
+    Invita a utilizar tecnologías para analizar patrones en casos de discriminación laboral, facilitando la identificación de sentencias y doctrinas relevantes.
+    Conclusión:
+    Este enfoque garantiza una aplicación rigurosa y detallada de las normas y jurisprudencia para resolver casos de tutela relacionados con discriminación laboral por género. Al integrar variables contextuales, mapeo de sentencias, y simulaciones de escenarios, el análisis se convierte en una herramienta sólida y práctica para la defensa de los derechos fundamentales en el ámbito laboral.
+    Categoría 4: Analizar
+    Reglas principales:
+    4.	Examinar los patrones en la jurisprudencia para identificar tendencias.
+    5.	Identificar contradicciones o conflictos normativos.
+    Subreglas:
+    6.	Detectar inconsistencias en las decisiones previas de las altas cortes.
+    7.	Establecer relaciones entre elementos normativos aparentemente dispares.
+    Instrucción:
+    “Para analizar sentencias de tutela relacionadas con el derecho a la salud de la población desplazada víctima del conflicto armado, el sistema debe procesar y comprender exhaustivamente cada uno de los elementos siguientes. Esto incluye desglosar, evaluar, y correlacionar factores jurídicos, normativos y sociales aplicables al caso, asegurándose de que no quede absolutamente nada por fuera en el proceso analítico.”
+    Debes entender lo siguiente:
+    1. Contexto de la población desplazada víctima del conflicto armado:
+    ¿Quién es considerado población desplazada?
+    Según la Ley 387 de 1997, son aquellas personas obligadas a abandonar su hogar por violencia, amenazas, o conflictos armados internos.
+    Incluye características sociodemográficas (mujeres, niños, comunidades indígenas y afrodescendientes) y vulnerabilidades específicas.
+    Condición de víctima del conflicto armado:
+    Establecida en la Ley 1448 de 2011 (Ley de Víctimas y Restitución de Tierras), que reconoce los derechos de esta población a la reparación integral y al acceso prioritario a servicios como la salud.
+    Derecho a la salud:
+    Es un derecho fundamental conexo cuando su vulneración pone en riesgo derechos esenciales como la vida y la dignidad humana.
+    Involucra no solo atención médica, sino acceso oportuno, continuo y con enfoque diferencial en el sistema de salud.
+    2. Relación entre desplazamiento y salud:
+    Impactos del desplazamiento en la salud:
+    Efectos físicos: malnutrición, enfermedades infecciosas y crónicas desatendidas.
+    Efectos psicológicos: estrés postraumático, ansiedad, y depresión.
+    Barreras de acceso a servicios de salud:
+    Ausencia de documentación, desconocimiento de derechos, y discriminación en instituciones de salud.
+    Enfoque diferencial:
+    Reconocer cómo las mujeres desplazadas enfrentan riesgos adicionales, como violencia sexual, embarazos no deseados, y falta de atención prenatal.
+    3. Jurisprudencia clave en materia de salud y desplazamiento:
+    La Corte Constitucional ha reconocido el derecho a la salud como esencial para garantizar la vida digna de la población desplazada.
+    Sentencias relevantes:
+    T-025/2004: Declaración del estado de cosas inconstitucional respecto de la atención a población desplazada.
+    T-045/2010: Reafirmación del deber del Estado de garantizar servicios prioritarios de salud a las víctimas del conflicto.
+    T-496/2016: Protección del derecho a la salud de mujeres desplazadas con énfasis en enfoque de género y diferencial.
+    4. Enfoque en la normatividad aplicable:
+    Internacional:
+    Principios de los Desplazamientos Internos (Principios de Deng).
+    Protocolo Adicional II a los Convenios de Ginebra (protección de civiles).
+    Nacional:
+    Ley 1448 de 2011: Enfoque integral de atención a víctimas.
+    Ley 1751 de 2015 (Estatutaria de Salud): Derecho a la salud como derecho autónomo y fundamental.
+    Decretos reglamentarios para priorización de población desplazada en programas de salud.
+    Debes presentar:
+    1. Identificación de patrones en la jurisprudencia:
+    ¿Qué decisiones son consistentes?
+    La reiteración del derecho a la salud como conexo al derecho a la vida y la dignidad para población desplazada.
+    La importancia de los enfoques diferencial y territorial en las órdenes judiciales.
+    ¿Qué tendencias son evidentes?
+    Incremento en sentencias que exigen planes específicos para mujeres y niños desplazados.
+    Priorización de atención psicosocial en víctimas de violencia sexual.
+    2. Evaluación de contradicciones o conflictos normativos:
+    ¿Dónde surgen inconsistencias?
+    En la armonización entre las leyes nacionales y la implementación práctica por parte de entidades territoriales.
+    Ejemplo: Conflictos entre la Ley 1448 de 2011 y el régimen de afiliación en salud (contributivo vs. subsidiado).
+    ¿Qué genera conflictos normativos?
+    Falta de articulación entre instituciones responsables: EPS, Defensoría del Pueblo, Unidad para las Víctimas.
+    Ambigüedades en el cumplimiento de las órdenes de tutela por parte de entidades locales.
+    3. Relaciones entre elementos normativos aparentemente dispares:
+    ¿Cómo se conectan derechos específicos con normatividad general?
+    Derecho a la vida digna vinculado al cumplimiento de estándares mínimos en la atención de salud.
+    Ley 1448 como marco para garantizar derechos conexos como educación y salud en su conjunto.
+    ¿Qué relaciones inesperadas deben considerarse?
+    La conexión entre desplazamiento forzado y la necesidad de una red de apoyo psicológico, vinculado al derecho a la integridad personal.
+    Propuesta detallada de análisis:
+    1. Análisis contextualizado de la sentencia:
+    Hechos relevantes: Fecha, lugar, y situación concreta de la persona desplazada.
+    Sujetos involucrados: Población desplazada, EPS, entidades territoriales, Ministerio de Salud.
+    Medios de prueba: Historia clínica, registros de afiliación a salud, y certificaciones de desplazamiento.
+    2. Identificación del problema jurídico:
+    Ejemplo: ¿El Estado incumplió su obligación de garantizar la atención médica integral a una mujer desplazada en estado de embarazo?
+    Planteamiento lógico:
+    Si una EPS se niega a afiliar a una víctima de desplazamiento argumentando falta de documentación, entonces está vulnerando su derecho fundamental a la salud.
+    3. Generación de recomendaciones:
+    Recomendación 1: Ordenar la afiliación inmediata al sistema de salud para la persona desplazada, priorizando su condición de víctima.
+    Recomendación 2: Exigir medidas estructurales, como programas de atención psicosocial para comunidades desplazadas.
+    Recomendación 3: Garantizar la capacitación de funcionarios de salud en atención diferencial y enfoque de género.
+    4. Simulación de escenarios:
+    Escenario A: Negativa de atención en salud a mujer desplazada con cáncer.
+    Acción: Exigir atención inmediata a través de la tutela, basándose en la conexión entre el derecho a la salud y la vida.
+    Escenario B: Niño desplazado sin acceso a vacunas esenciales.
+    Acción: Ordenar campañas de salud específicas para población desplazada en el municipio correspondiente.
+    Conclusión:
+    Este enfoque analítico, detallado y estructurado garantiza un examen completo y sólido de sentencias de tutela relacionadas con el derecho a la salud de la población desplazada víctima del conflicto armado. Al aplicar patrones jurisprudenciales, detectar conflictos normativos, y establecer relaciones normativas, se genera una herramienta útil tanto para la defensa de derechos fundamentales como para la mejora de políticas públicas.
+    Categoría 5: Crear
+    Instrucción:
+    "Para desarrollar un análisis integral que vincule el derecho a la educación y el acceso a internet como un derecho humano, el sistema debe entender, construir y proponer soluciones jurídicas desde un enfoque innovador y basado en datos. Este análisis debe combinar elementos normativos, históricos y sociales, garantizando que no quede ningún aspecto relevante sin considerar."
+
+    Debes entender lo siguiente:
+    1. El derecho a la educación:
+    Reconocido como un derecho fundamental en el Artículo 67 de la Constitución Política de Colombia.
+    Implica garantizar el acceso a una educación inclusiva, equitativa, y de calidad, alineada con los estándares internacionales establecidos en tratados como el Pacto Internacional de Derechos Económicos, Sociales y Culturales (PIDESC) y la Convención sobre los Derechos del Niño (CDN).
+    Conexión con otros derechos: Educación como habilitadora de derechos, incluyendo la igualdad, la participación ciudadana, y el desarrollo personal.
+    2. El derecho al acceso a internet como derecho humano:
+    Declarado por las Naciones Unidas (Resolución A/HRC/32/L.20 de 2016) como esencial para el pleno goce de otros derechos fundamentales.
+    Permite a las personas, especialmente a la niñez:
+    Acceder a conocimientos de la ciencia y la cultura universal.
+    Participar en la vida política, social y económica.
+    Reducir desigualdades en el acceso a oportunidades educativas.
+    Conexión específica con la educación:
+    Herramienta clave en el aprendizaje digital.
+    Garantiza el acceso a plataformas educativas, bibliotecas virtuales, y contenidos académicos globales.
+    3. Relación entre ambos derechos:
+    El acceso a internet se vuelve indispensable para materializar el derecho a la educación en el contexto de la digitalización global.
+    Enfoque diferencial:
+    Asegurar acceso en zonas rurales, para poblaciones vulnerables, y en contextos de pobreza.
+    Garantizar equidad para niñas y niños en situación de discapacidad.
+    4. Contexto normativo y jurisprudencial:
+    Internacional:
+    Artículo 13 del PIDESC: Derecho a la educación incluye acceso a los avances de la tecnología.
+    UNESCO: Internet como herramienta clave para cerrar brechas educativas.
+    Nacional:
+    Artículo 365 de la Constitución: Los servicios públicos, incluidos los tecnológicos, deben garantizarse como esenciales.
+    Ley 1341 de 2009: Promoción del acceso a internet como medio para mejorar la calidad de vida.
+    Sentencias relevantes:
+    T-478/2015: Garantizó acceso a tecnologías de la información como parte integral del derecho a la educación.
+    T-063/2021: Reconocimiento del internet como herramienta indispensable para el desarrollo educativo en comunidades vulnerables.
+    Debes presentar:
+    1. Criterios para construir argumentos jurídicos originales:
+    Regla principal:
+    El derecho a internet es una herramienta habilitante para garantizar el acceso equitativo a la educación, especialmente para la niñez y adolescentes.
+    Subreglas:
+    Las entidades públicas tienen la obligación de garantizar la infraestructura básica para acceso a internet.
+    El derecho a internet debe incluir un enfoque diferencial para poblaciones rurales y marginadas.
+    Sustento histórico-jurídico:
+    En los últimos 20 años, el internet pasó de ser una herramienta opcional a un componente esencial de los procesos educativos.
+    La pandemia de COVID-19 evidenció que la exclusión digital perpetúa la desigualdad educativa.
+    2. Propuestas innovadoras:
+    Propuesta 1: Creación de un programa nacional de acceso universal a internet educativo.
+    Objetivo: Garantizar conectividad para estudiantes en instituciones públicas, priorizando áreas rurales.
+    Estrategias:
+    Uso de infraestructura satelital en zonas de difícil acceso.
+    Subsidios estatales para dispositivos y tarifas de conexión en hogares de bajos recursos.
+    Justificación jurídica: Cumple con el mandato constitucional de garantizar igualdad de oportunidades en educación.
+    Propuesta 2: Reconocimiento judicial del acceso a internet como parte esencial del mínimo vital educativo.
+    Planteamiento:
+    ¿Cómo se justifica esta ampliación del concepto de mínimo vital?
+    Al igual que el agua y la energía, el acceso a internet se convierte en un servicio básico para garantizar la dignidad humana en el contexto educativo.
+    Estrategias legales:
+    Promover la acción de tutela para proteger casos individuales y generar precedentes.
+    Solicitar control automático por parte de la Corte Constitucional sobre decisiones relacionadas con acceso a internet.
+    Propuesta 3: Fortalecimiento de la alianza público-privada para conectar escuelas.
+    Ejemplo: Programas como "Computadores para Educar" pueden ampliarse para incluir conectividad gratuita en colegios públicos.
+    Implicación normativa: Ajustar la Ley 1341 de 2009 para establecer metas concretas de cobertura digital educativa.
+    3. Escenarios legales hipotéticos para simular:
+    Escenario A: Niño de una comunidad rural sin acceso a clases virtuales debido a falta de conectividad.
+    Acción: Interponer tutela exigiendo la provisión inmediata de internet en su institución educativa, fundamentada en la conexidad entre educación e internet.
+    Escenario B: Familia desplazada con limitaciones económicas para pagar servicios de internet.
+    Acción: Promover acción de tutela solicitando subsidios estatales bajo el principio de igualdad.
+    4. Articulación de relaciones normativas dispares:
+    Vinculación del derecho a la educación (Artículo 67) con el derecho a los servicios públicos esenciales (Artículo 365).
+    Conexión con políticas internacionales: Implementación de estándares establecidos por la UNESCO y las Naciones Unidas en Colombia.
+    Resultado: Argumentos Jurídicos Originales
+    Criterio:
+    El acceso a internet es un derecho humano habilitante, esencial para la materialización del derecho a la educación.
+    Regla:
+    El Estado debe garantizar la infraestructura tecnológica necesaria para que las comunidades más vulnerables tengan acceso igualitario a la educación digital.
+    Subregla:
+    Las estrategias de conectividad deben incluir enfoques diferenciales, priorizando las necesidades de niñas, niños, adolescentes, y poblaciones en condiciones de vulnerabilidad.
+Con base en las anteriores instrucciones, proporciona una respesta de:
+    {context}
+
+    Question: {question}

@@ -133,6 +133,15 @@ def scraping_sentencias(termino_de_busqueda):
 
     collections.insert_many(docs_splits_dict)
 
+def cargar_template():
+    """Carga todos los templates desde archivos externos"""
+    template_path = os.path.join(os.path.dirname(__file__), '..', 'prompts', 'template_T.txt')
+    try:
+        with open(template_path, 'r', encoding='utf-8') as file:
+            return file.read()
+    except FileNotFoundError:
+        raise ValueError("No se encontró el archivo template_T.txt en la carpeta prompts")
+
 # Conficuración de la conexión con MongoDB Atlas
 def configurar_modelo():
 
@@ -159,7 +168,7 @@ def configurar_modelo():
     embeddings = OpenAIEmbeddings(model="text-embedding-ada-002")
 
     vectorStore = MongoDBAtlasVectorSearch.from_documents( 
-        documents= docs,
+        documents= docs,\
         embedding= embeddings, 
         collection= collections,
         index_name=os.environ['MONGODB_VECTOR_INDEX']
@@ -168,16 +177,11 @@ def configurar_modelo():
     retriever = vectorStore.as_retriever(search_kwargs={"similarity_threshold": 0.1})
 
 
-    template = """Quiero un análisis jurídico profesional sobre los derechos fundamentales amenazados o dañados que se debaten en la Corte Constitucional de Colombia. Es importante conocer los hechos de acuerdo a las circunstancias de modo, el tiempo con las fechas y hora, el lugar
-    donde ocurrieron y las personas naturales o jurídicas que tienen conflicto entre ellas. También es importante conocer cuál fue el daño o peligro que afecta los derechos fundamentales dentro de las consideraciones tenidas en cuenta por la Corte Constitucional. Finalmente, requiero saber lo que resuelve la Corte Constitucional. Con base en las anteriores instrucciones, proporciona un resumen de:
-    {context}
-
-    Question: {question}
-    """
+    template = cargar_template()
     prompt = ChatPromptTemplate.from_template(template)
 
-    #model = ChatOpenAI(temperature=0, model="gpt-4o")
-    model = ChatGroq(temperature=0, model="llama-3.1-70b-versatile")
+    model = ChatOpenAI(temperature=0, model="gpt-4o")
+    #model = ChatGroq(temperature=0, model="llama-3.1-70b-versatile")
     # Local LLM
     ollama_llm = "phi3.5"
     model_local = ChatOllama(model=ollama_llm)
