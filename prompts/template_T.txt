@@ -1,4 +1,46 @@
-Quiero un análisis jurídico profesional teniendo en cuenta lo siguiente:
+Quiero un análisis jurídico profesional teniendo en cuenta la taxonomía de bloom siguiendo estos pasos:
+    1.	Entendimiento propedéutico de la interacción humano-IA:
+    Se realizó un análisis preliminar sobre cómo los usuarios humanos formulan solicitudes y cómo los sistemas de IA interpretan estas demandas. Este paso permitió identificar las expectativas cognitivas y establecer patrones de respuesta idóneos que respeten las máximas del método científico.
+    2.	Optimización del acceso y organización de datos:
+    La estructura del sistema priorizó la capacidad de acceder, clasificar y presentar información jurídica de forma comprensible, asegurando que los usuarios pudieran navegar con facilidad por registros complejos y normativas extensas.
+    3.	Priorización y relevancia en la información:
+    Se diseñaron algoritmos para determinar qué elementos de información tenían mayor prioridad, basándose en criterios como relevancia jurídica, urgencia del caso y contexto social del usuario.
+    4.	Coordinación inter y transdisciplinaria:
+    El desarrollo del sistema incluyó la integración de conocimientos de otras disciplinas, como la lingüística, la filosofía del derecho y la ciencia de datos. Esto facilitó la producción de soluciones innovadoras que trascienden el ámbito estrictamente jurídico.
+    5.	Ética y transparencia:
+    Se abordó la importancia de diseñar un sistema éticamente sólido, capaz de manejar información sensible y garantizar que las decisiones tomadas sean justificables desde el punto de vista moral y legal.
+    6.	Seguridad de la información:
+    Para prevenir el auto-plagio y proteger la propiedad intelectual, se implementaron mecanismos avanzados de gestión de datos que aseguraran la integridad y originalidad de las ideas.
+    7.	Visibilidad social y mediación cultural:
+    Finalmente, se enfatizó el uso correcto y responsable del sistema, destacando su impacto en la cultura jurídica y en la mediación entre las nuevas tecnologías y las prácticas legales tradicionales.
+    Contribuciones Fundamentales: La Ciencia de Datos y el Derecho
+    En este contexto, se incorporaron tres enfoques teóricos esenciales que sentaron las bases para el desarrollo del sistema. Estos autores y sus investigaciones clave son:
+    1.	Luciano Floridi:
+    En su obra "The Ethics of Information", Floridi explora cómo los sistemas de IA deben operar bajo principios éticos sólidos, analizando el impacto de la tecnología en los procesos decisionales humanos y en la configuración de la realidad informacional.
+    2.	Richard Susskind:
+    Con "Tomorrow's Lawyers: An Introduction to Your Future", Susskind analiza cómo la tecnología está transformando la práctica jurídica, ofreciendo un marco para entender la innovación en los servicios legales y el papel que juegan las herramientas de IA en este cambio.
+    3.	Cass R. Sunstein:
+    En "How Change Happens", Sunstein examina los procesos de toma de decisiones y cambio social, destacando cómo las herramientas tecnológicas pueden facilitar un cambio estructural en los sistemas legales y judiciales.
+    Integración Práctica de la Metodología
+    El diseño del sistema se enriqueció con la implementación de escenarios que simulan interacciones reales entre usuarios humanos y el sistema de IA. Estos escenarios incluyeron:
+    •	La simulación de solicitudes legales complejas, como análisis de jurisprudencia o elaboración de tutelas.
+    •	La incorporación de un lenguaje natural que permita a los usuarios formular preguntas o plantear casos de manera intuitiva.
+    •	La generación de resultados que no solo respondan a las consultas planteadas, sino que también ofrezcan perspectivas adicionales basadas en contextos históricos, sociales y culturales.
+    Resultados Esperados
+    Este sistema tiene como objetivo democratizar el acceso a servicios legales, reduciendo las barreras que tradicionalmente enfrentan los ciudadanos en el acceso a la justicia. Además, busca ser una herramienta de apoyo para profesionales del derecho, ayudándoles a optimizar su tiempo y recursos en tareas que requieren análisis extensivo y repetitivo. 
+    Con este primer avance metodológico, el documento establece las bases para una reflexión más amplia sobre las implicaciones culturales, sociales y jurídicas de integrar la inteligencia artificial en el ámbito del derecho. 
+    El Devenir del derecho y su convergencia con la inteligencia artificial
+    El desarrollo del sistema propuesto se sustenta en un análisis profundo del manejo y la estructura de la información jurídica en la Corte Constitucional. En este sentido, se centró en la metodología de comandos, directrices e instrucciones conducentes a la creación de un sistema instruccional para el análisis de autos, sentencias de tutela, sentencias de unificación de tutela (SU), sentencias constitucionales y sentencias de tutela contra providencias judiciales. Este análisis permitió integrar elementos técnicos y epistemológicos en la metodología, orientando el sistema hacia una interacción efectiva entre el conocimiento humano y la capacidad interpretativa de la inteligencia artificial (IA).
+    Para cumplir este propósito, se diseñó una metodología basada en comandos directrices e instrucciones claras, estructuradas en un lenguaje lógico comprensible para la máquina. Este enfoque permite que la inteligencia artificial no solo entienda las solicitudes específicas del usuario, sino que también priorice la información relevante de acuerdo con las características de cada caso jurídico. La lógica de estas instrucciones considera elementos como la jerarquización normativa, los contextos específicos de los casos y las necesidades de análisis avanzado.
+    Además, se integraron principios técnicos y epistemológicos en el desarrollo de esta metodología. Los principios técnicos aseguran que el sistema responda de manera eficiente, mientras que los epistemológicos orientan la interacción hacia una comprensión holística y contextual del conocimiento jurídico. Este balance entre técnica y conocimiento humano es relevante para una interacción efectiva entre el operador humano y la capacidad interpretativa de la inteligencia artificial.
+    Por último, este sistema instruccional busca optimizar el análisis de documentos legales complejos, como autos, sentencias y providencias. 
+    Evaluación de Recursos Digitales y Estructura Jurídica
+    Se llevó a cabo un estudio amplio sobre los recursos tecnológicos y metodológicos utilizados en las relatoría de la Corte Constitucional de Colombia, destacando la importancia de:
+    •	Superestructura y macroestructura de las sentencias: Denominación, hechos, valoración de precedente, normas aplicables y decisiones judiciales clave.
+    •	Normativa aplicable: Constitución Política de 1991, Código de infancia de adolescencia, Decreto 2551 de 1991, entre otras.
+    Este análisis permitió identificar patrones y esquemas replicables mediante IA para simplificar y mejorar el manejo de grandes volúmenes de información jurídica, desarrollando una capa interpretativa pedagógica que permita resolver asuntos resueltos por parte de la Corte Constitucional de manera sistemática.
+    Categorías para la Interacción Hombre-IA
+    Con base en la taxonomía propuesta, se establecieron siete categorías fundamentales para estructurar el diálogo entre el ser humano y la IA, cada una con tres reglas principales y cinco subreglas asociadas:
     1. Recordar
     Reglas principales:
     1.	La IA debe identificar y recuperar información relevante basada en palabras clave específicas.
@@ -77,6 +119,9 @@ Quiero un análisis jurídico profesional teniendo en cuenta lo siguiente:
     4.	Implementar mecanismos para la retroalimentación del usuario.
     5.	Diseñar nuevas aplicaciones legales basadas en la evolución normativa.
     Esta estructura metodológica no solo permite sistematizar el conocimiento legal, sino que también abre un camino hacia el desarrollo de un diálogo significativo entre las capacidades interpretativas humanas y el potencial de las inteligencias artificiales. Continuaremos con la implementación práctica de estas categorías y sus reglas en los próximos apartados.
+
+
+    METODOLOGÍA INSTRUCCIONAL SENTENCIA DE TUTELA PROMPT ENGINEERING
     Categoría 1: Recordar
     Subregla 1: Identificar metadatos relacionados con los hechos relevantes de cada caso.
     Simulación del diálogo:
@@ -166,10 +211,10 @@ Quiero un análisis jurídico profesional teniendo en cuenta lo siguiente:
     •	Interpretar conceptos jurídicos en el contexto específico planteado por el usuario, proporcionando claridad y aplicabilidad en el marco de los precedentes judiciales.
     •	Identificar precedentes sólidos y vinculantes que protejan el derecho al libre desarrollo de la personalidad, especialmente en el contexto de la jurisprudencia constitucional colombiana.
     Subreglas:
-    •	Reconocer áreas de ambigüedad en términos legales o contextuales, como la definición de "libre desarrollo de la personalidad" en situaciones concretas (por ejemplo, elección de identidad de género, prácticas culturales, estilo de vida o decisiones individuales).
-    •	Proporcionar un marco interpretativo robusto que aborde estas ambigüedades, basándose en normas constitucionales, principios internacionales de derechos humanos y jurisprudencia de la Corte Constitucional de Colombia.
-    •	Contextualizar los derechos fundamentales en conflicto o tensión con el libre desarrollo de la personalidad, como el orden público, los derechos de terceros o la protección de menores.
-    •	Utilizar sentencias de tutela representativas y vinculantes para desarrollar un análisis comparativo entre casos similares y garantizar la aplicación consistente del derecho.
+    	Reconocer áreas de ambigüedad en términos legales o contextuales, como la definición de "libre desarrollo de la personalidad" en situaciones concretas (por ejemplo, elección de identidad de género, prácticas culturales, estilo de vida o decisiones individuales).
+    	Proporcionar un marco interpretativo robusto que aborde estas ambigüedades, basándose en normas constitucionales, principios internacionales de derechos humanos y jurisprudencia de la Corte Constitucional de Colombia.
+    	Contextualizar los derechos fundamentales en conflicto o tensión con el libre desarrollo de la personalidad, como el orden público, los derechos de terceros o la protección de menores.
+    	Utilizar sentencias de tutela representativas y vinculantes para desarrollar un análisis comparativo entre casos similares y garantizar la aplicación consistente del derecho.
     Simulación de Instrucción:
     "Para analizar las sentencias de tutela relacionadas con la protección del derecho al libre desarrollo de la personalidad, particularmente aquellas que establecen precedentes sólidos y vinculantes, utiliza el siguiente enfoque sistemático y enriquecido:
     1. Contexto de análisis jurídico:
@@ -335,8 +380,8 @@ Quiero un análisis jurídico profesional teniendo en cuenta lo siguiente:
     •	Identificar normas específicas nacionales e internacionales que sean aplicables al análisis de sentencias de tutela sobre discriminación laboral por género, asegurando un enfoque transversal de género y perspectiva de derechos humanos.
     •	Recomendar procedimientos jurídicos acordes con las necesidades específicas del usuario, diseñando estrategias que incluyan reparación, prevención, y medidas correctivas.
     Subreglas:
-    •	Considerar variables contextuales (sociales, económicas, culturales y políticas) que influyen en las dinámicas de discriminación laboral por género, tales como brechas salariales, barreras en el acceso a ascensos, hostigamiento, y violencias simbólicas.
-    •	Simular posibles escenarios legales bajo la normativa vigente, incluyendo acciones de tutela, demandas por reparación, y políticas internas de equidad laboral en instituciones públicas y privadas.
+    	Considerar variables contextuales (sociales, económicas, culturales y políticas) que influyen en las dinámicas de discriminación laboral por género, tales como brechas salariales, barreras en el acceso a ascensos, hostigamiento, y violencias simbólicas.
+    	Simular posibles escenarios legales bajo la normativa vigente, incluyendo acciones de tutela, demandas por reparación, y políticas internas de equidad laboral en instituciones públicas y privadas.
     Instrucción:
     "Para aplicar las reglas y subreglas en el análisis de sentencias de tutela sobre discriminación laboral por género, debes entender, procesar y resolver cada uno de los siguientes componentes desde una perspectiva holística y lógica jurídica aplicable al caso específico:
     1. Comprender el concepto de género y sus enfoques jurídicos:
@@ -556,6 +601,351 @@ Quiero un análisis jurídico profesional teniendo en cuenta lo siguiente:
     El Estado debe garantizar la infraestructura tecnológica necesaria para que las comunidades más vulnerables tengan acceso igualitario a la educación digital.
     Subregla:
     Las estrategias de conectividad deben incluir enfoques diferenciales, priorizando las necesidades de niñas, niños, adolescentes, y poblaciones en condiciones de vulnerabilidad.
+    Categoría 6: Evaluar
+    Instrucción prompt:
+    "Para evaluar con profundidad los aspectos legales, sociales y éticos involucrados en las sentencias de tutela relacionadas con el artículo 42 de la Constitución Política de Colombia sobre el matrimonio entre parejas del mismo sexo y la objeción de conciencia por parte de autoridades eclesiásticas, es necesario entender cada componente del análisis jurídico y argumentativo. Este proceso debe permitir medir la efectividad de las soluciones legales propuestas, detectar posibles inconsistencias normativas, y resaltar elementos relevantes como la adopción de menores por parejas del mismo sexo, la ponderación de derechos en conflicto y la existencia de salvamentos de voto en decisiones judiciales previas."
+    Debes entender lo siguiente:
+    1. Contexto constitucional del artículo 42:
+    •	Reconoce que la familia es el núcleo fundamental de la sociedad y puede constituirse por vínculos naturales o jurídicos, como el matrimonio o la voluntad responsable de conformarla.
+    •	La interpretación progresiva ha permitido incluir a parejas del mismo sexo dentro de este concepto, conforme al principio de igualdad del artículo 13.
+    2. Matrimonio entre parejas del mismo sexo:
+    •	Evolución jurisprudencial:
+    o	C-577/2011: Reconocimiento de derechos patrimoniales y la posibilidad de conformar una familia sin discriminación por orientación sexual.
+    o	SU-214/16: Ordena a las notarías y jueces garantizar el matrimonio entre parejas del mismo sexo como expresión de igualdad y autonomía personal.
+    •	Hechos jurídicamente relevantes:
+    o	Violación de derechos fundamentales como igualdad (art. 13) y libre desarrollo de la personalidad (art. 16).
+    o	Conflictos derivados de negativas por objeción de conciencia.
+    3. Objeción de conciencia de autoridades eclesiásticas:
+    •	Fundamento jurídico: Artículo 18 de la Constitución, que garantiza la libertad de conciencia.
+    •	Límites:
+    o	No puede usarse para impedir el acceso a derechos fundamentales.
+    o	La objeción solo aplica a individuos, no a instituciones o servicios públicos delegados.
+    •	Jurisprudencia relevante:
+    o	T-257/2016: Establece que las entidades públicas deben garantizar la prestación de servicios sin discriminación, aun si existen objeciones de conciencia individuales.
+    4. Adopción por parejas del mismo sexo:
+    •	Jurisprudencia clave:
+    o	SU-696/2015: Reconoce la posibilidad de adopción conjunta por parejas del mismo sexo, priorizando el interés superior del niño.
+    o	Argumento central: La orientación sexual de los adoptantes no afecta las garantías de desarrollo integral de los menores.
+    5. Argumentación jurídica y ponderación:
+    •	Identificar derechos en conflicto:
+    o	Derecho a la igualdad vs. objeción de conciencia.
+    o	Derecho a la familia vs. principios morales/religiosos.
+    •	Ratio decidendi: La solución debe priorizar derechos fundamentales sobre valores subjetivos o colectivos que limiten la libertad personal.
+    •	Uso de elementos probatorios:
+    o	Hechos indicadores de discriminación por orientación sexual.
+    o	Pruebas psicológicas que demuestren la idoneidad de los adoptantes.
+    6. Salvamentos de voto:
+    •	Identificar diferencias interpretativas en decisiones judiciales.
+    •	Ejemplo:
+    o	C-577/2011: Salvamento por considerar que el matrimonio heterosexual es una institución especial.
+    o	Alcance: Refleja debates pendientes sobre moralidad, religión y derechos fundamentales.
+    Debes presentar:
+    1. Criterios para medir la efectividad de las soluciones legales propuestas:
+    •	Regla principal:
+    o	Las decisiones deben garantizar el acceso pleno a los derechos fundamentales, sin permitir discriminación.
+    •	Subreglas:
+    o	La objeción de conciencia debe aplicarse de manera individual y no institucional.
+    o	Las soluciones deben ser consistentes con los estándares internacionales de derechos humanos.
+    2. Comparación con casos previos resueltos:
+    •	Caso A: Pareja del mismo sexo que enfrenta negativa de un juez para casarse (SU-214/16).
+    o	Resultado: Se garantiza el matrimonio y se aclara el límite de la objeción de conciencia.
+    •	Caso B: Adopción por parte de pareja homosexual rechazada por conceptos morales (SU-696/15).
+    o	Resultado: La Corte priorizó el interés superior del menor sobre prejuicios sociales.
+    Debes evaluar:
+    1. Congruencia con el marco legal vigente:
+    •	¿Se garantizó la igualdad de trato?
+    o	Verificar si la solución respeta el principio de no discriminación del artículo 13.
+    •	¿Se estableció un equilibrio razonable entre derechos en conflicto?
+    o	Analizar si se justificó adecuadamente la prevalencia de un derecho sobre otro mediante la ponderación.
+    2. Posibles errores o sesgos:
+    •	Error 1: Aplicación incorrecta de la objeción de conciencia como eximente institucional.
+    •	Error 2: Falta de análisis diferencial sobre el impacto en poblaciones vulnerables.
+    3. Elementos subyacentes para profundizar:
+    •	Dimensión social:
+    o	Análisis del impacto de estas decisiones en la percepción pública de los derechos LGBTIQ+.
+    •	Dimensión ética:
+    o	Tensión entre moral religiosa y derechos fundamentales en un Estado laico.
+    •	Dimensión probatoria:
+    o	Valoración adecuada de pruebas periciales para demostrar discriminación o idoneidad en la adopción.
+    Resultado: Evaluación Integral
+    Criterio:
+    La efectividad de las soluciones legales propuestas debe medirse en términos de su capacidad para garantizar el goce pleno de derechos fundamentales en contextos de diversidad y conflicto normativo.
+    Regla:
+    Toda solución debe priorizar la protección de derechos fundamentales, como la igualdad y el libre desarrollo de la personalidad, sobre valores morales o religiosos no vinculantes.
+    Subregla:
+    La ponderación debe ser estricta y basarse en evidencia objetiva, reconociendo la prevalencia de los derechos constitucionales sobre prejuicios o intereses particulares.
+    Categoría 6: Evaluar
+    Reglas principales:
+    1.	Identificar áreas de mejora en el manejo de datos y generación de respuestas.
+    2.	Comparar decisiones sugeridas con las emitidas por las altas cortes.
+    3.	Validar la conformidad ética y normativa de las soluciones.
+    4.	Establecer métricas de éxito para futuros desarrollos.
+    Subreglas:
+    1.	Comparar decisiones sugeridas con las emitidas por las altas cortes.
+    2.	Validar la conformidad ética y normativa de las soluciones.
+    3.	Establecer métricas de éxito para futuros desarrollos.
+    Simulación del diálogo:
+    "Chat, necesito que analices una sentencia de tutela relacionada con el Artículo 38 de la Constitución Política de Colombia, que garantiza el derecho de libre asociación para el desarrollo de actividades sociales. Este análisis debe ser integral y exhaustivo.
+    Primero, debes identificar al magistrado ponente que fue el encargado de elaborar el fallo. Esto es crucial, ya que el ponente tiene un papel determinante en la interpretación y aplicación de los derechos fundamentales involucrados. Además, sería ideal que mencionaras las razones que motivaron su participación en la elaboración del fallo y los principios constitucionales que utilizó para fundamentar la decisión. En este contexto, también debes identificar las instancias procesales implicadas en el caso, comenzando desde el juzgado que inició el proceso, pasando por los tribunales que intervinieron, y culminando con la Corte Constitucional. Es fundamental que expliques cómo cada una de estas instancias actuó en el marco de su competencia y qué decisiones adoptaron antes de llegar a la Corte.
+    En segundo lugar, es necesario que expliques la competencia de la Corte Constitucional para conocer de esta tutela. La Corte sólo puede intervenir en casos específicos, y dicha competencia está regulada por el Decreto 2591 de 1991, por lo que debes identificar qué artículos de este decreto otorgan la facultad a la Corte para revisar esta tutela. Asegúrate de abordar los conceptos claves como subsidiariedad, causa activa y legitimación por activa. Esto te permitirá determinar si la Corte tenía el deber de conocer el caso o si, por el contrario, debía declinar su competencia a favor de otras instancias judiciales.
+    Finalmente, es necesario que te adentres en la estructura del problema jurídico planteado en el caso, ya que debe quedar claro cuál fue el derecho fundamental vulnerado y cómo la Corte lo abordó. Para ello, analiza los hechos relevantes del caso, las pruebas que se presentaron y cómo estas se valoraron en las diferentes instancias procesales. En este contexto, debes identificar los argumentos constitucionales que la Corte utilizó para resolver el caso y cómo estructuró su decisión final. También es importante que, si existieron salvamentos de voto o aclaraciones, los menciones detalladamente, ya que estos pueden reflejar posturas divergentes sobre la interpretación de los derechos involucrados. Además, no olvides identificar los desafíos que plantea este tipo de decisiones y cómo podrían influir en el desarrollo de la jurisprudencia futura.
+    A través de este análisis, no solo se debe desglosar el fallo, sino también reflexionar sobre la relevancia de la sentencia dentro del contexto jurídico más amplio, particularmente con respecto a los derechos de libre asociación y su protección en Colombia."
+    1. Identificación básica:
+    •	Magistrado Ponente: Identificar al magistrado que formuló el fallo y su impacto en la resolución del caso.
+    •	Instancias procesales: Describir las diferentes instancias judiciales que intervinieron (juzgados, tribunales y Corte Constitucional), así como sus respectivas decisiones.
+    2. Competencia de la Corte Constitucional:
+    •	Decreto 2591 de 1991: Especificar los artículos que otorgan competencia a la Corte Constitucional para resolver esta tutela.
+    •	Causa activa, pasiva y subsidiariedad: Análisis de los requisitos de procedibilidad en la acción de tutela, de acuerdo con las reglas establecidas en el Decreto.
+    3. Estructuración del problema jurídico:
+    •	Hechos jurídicamente relevantes: Identificar los hechos que constituyen la base de la acción de tutela, tales como los derechos vulnerados y los medios de prueba presentados.
+    •	Análisis de las pruebas: Evaluar cómo fueron valoradas las pruebas en las diferentes instancias y su impacto en la resolución del caso.
+    4. Resolución del problema jurídico:
+    •	Reglas constitucionales aplicadas: Identificar las normas constitucionales que la Corte invocó para resolver el caso, tales como la libertad de asociación.
+    •	Argumentación y ponderación: Desglosar los razonamientos utilizados por la Corte para llegar a su decisión, y cómo justificó la protección del derecho en cuestión.
+    5. Análisis crítico de los argumentos:
+    •	Salvamentos de voto y aclaraciones: Si las hay, identificar los puntos de desacuerdo con la mayoría y sus implicaciones jurídicas.
+    •	Desafíos concretos: Examinar los desafíos que plantea esta decisión para la jurisprudencia futura y su impacto en la protección de derechos fundamentales.
+    6. Viabilidad del caso:
+    •	Subsidiariedad: Evaluar si la acción de tutela fue presentada como última instancia.
+    •	Legitimación: Analizar si el accionante tenía legitimidad para presentar la acción y si el demandado tenía la obligación de garantizar el derecho vulnerado.
+    •	Urgencia: Determinar si existía una amenaza inminente que justificara la intervención de la tutela.
+    7. Relevancia normativa:
+    •	Relacionar la sentencia con otras normas nacionales e internacionales que protejan la libre asociación, y cómo estas fueron citadas o aplicadas.
+    8. Proyección y desafíos:
+    •	Analizar el impacto de la sentencia en la protección del derecho de asociación y en el desarrollo de la jurisprudencia constitucional en Colombia.
+    9. Medición del éxito y evaluación ética:
+    •	Evaluar la efectividad de la sentencia en la garantía del derecho de libre asociación y si cumple con los estándares éticos y normativos aplicables.
+    10. Ampliación del análisis:
+    •	Comparar esta sentencia con otros casos similares para identificar patrones jurisprudenciales y posibles áreas de mejora.
+    Síntesis:
+    Este enfoque estructurado no solo permite un análisis exhaustivo de la sentencia, sino que también facilita una reflexión sobre su impacto en el sistema jurídico colombiano, especialmente en lo relacionado con el derecho a la libre asociación. Además, el análisis se extiende a evaluar la conformidad ética y normativa de la solución propuesta, destacando áreas de mejora y proyecciones futuras para garantizar la plena efectividad de los derechos fundamentales.
+    7. Reinventar
+    Reglas principales:
+    4.	Replantear las estrategias de interacción entre humano e IA según los resultados previos.
+    5.	Diseñar nuevas metodologías para mejorar el rendimiento del sistema.
+    Subreglas:
+    6.	Identificar áreas de oportunidad en el diseño del sistema.
+    7.	Incluir elementos no tradicionales (psicología, sociología) en el análisis.
+    8.	Revisar constantemente la taxonomía utilizada.
+    Simulación del diálogo:
+    "Chat, necesito que realices un análisis detallado de una sentencia de tutela que aborde el derecho a la vida consagrado en el Artículo 11 de la Constitución Política de Colombia, correlacionándolo con el derecho al mínimo vital y móvil, particularmente en el contexto de pacientes psiquiátricos. Este análisis debe incluir una identificación completa de los elementos procesales y sustantivos, comenzando por la numeración de la sentencia, el magistrado ponente, la sala de decisión, las aclaraciones de voto (si las hay), y los salvamentos de voto, especificando los magistrados involucrados y sus argumentos.
+    Es fundamental que examines los hechos jurídicamente relevantes, es decir, aquellos que emergen de las pruebas documentales, testimoniales o periciales practicadas durante el proceso, y que permiten estructurar adecuadamente el problema jurídico. Además, necesito que identifiques las normas jurídicas relevantes aplicadas por la Corte, así como cómo estas se interrelacionan con los principios constitucionales y la protección especial para pacientes con necesidades psiquiátricas.
+    Por último, es importante evidenciar si la Corte Constitucional emite advertencias o pedagogías dirigidas a los jueces de instancia respecto a la forma en que deben abordar, interpretar y argumentar en casos similares. Esto incluye la necesidad de garantizar la protección integral del derecho a la vida y al mínimo vital en escenarios de extrema vulnerabilidad. El análisis debe permitir una comprensión amplia de cómo la Corte desarrolla su interpretación jurídica y establece precedentes para futuros casos."
+    Componentes del análisis:
+    1.	Identificación básica:
+    o	Número de la sentencia.
+    o	Magistrado ponente.
+    o	Sala de decisión.
+    o	Aclaraciones de voto: magistrados involucrados y motivos.
+    o	Salvamentos de voto: magistrados y argumentos.
+    2.	Hechos jurídicamente relevantes:
+    o	Identificación de los hechos probados mediante documentos, testimonios o peritajes.
+    o	Relevancia de los hechos en la estructuración del problema jurídico.
+    3.	Problema jurídico:
+    o	Formulación precisa del problema jurídico central.
+    o	Relación entre el derecho a la vida, el mínimo vital y las necesidades de pacientes psiquiátricos.
+    4.	Normas jurídicas relevantes:
+    o	Constitución Política de Colombia, Artículo 11 (derecho a la vida).
+    o	Jurisprudencia previa en temas relacionados con el mínimo vital y salud mental.
+    o	Instrumentos internacionales de derechos humanos aplicables.
+    5.	Decisión y resolución:
+    o	Análisis de cómo la Corte resolvió el problema jurídico.
+    o	Argumentación utilizada para proteger los derechos fundamentales involucrados.
+    o	Identificación de posibles advertencias o pedagogías dirigidas a los jueces de instancia.
+    6.	Pruebas practicadas:
+    o	Revisión de las pruebas documentales, testimoniales o periciales utilizadas.
+    o	Impacto de estas pruebas en la decisión final.
+    7.	Análisis pedagógico y crítico:
+    o	Advertencias o recomendaciones de la Corte para mejorar la argumentación jurídica en casos futuros.
+    o	Evaluación de la interpretación y argumentación jurídica aplicada por los jueces de instancia.
+    8.	Proyección y reinvención:
+    o	Propuesta de nuevas metodologías para abordar casos de extrema vulnerabilidad en materia de salud mental.
+    o	Inclusión de elementos no tradicionales como la psicología o la sociología para mejorar la comprensión de los derechos fundamentales involucrados.
+    o	Evaluación de posibles áreas de mejora en las decisiones emitidas y en el diseño del sistema judicial.
+    7. Reinventar
+    Reglas principales:
+    6.	Innovar en el enfoque de los problemas legales abordados.
+    Subreglas:
+    9.	Implementar mecanismos para la retroalimentación del usuario.
+    10.	Diseñar nuevas aplicaciones legales basadas en la evolución normativa.
+    Simulación del diálogo:
+    "Chat, necesito que realices un análisis exhaustivo basado en el Artículo 20 de la Constitución Política de Colombia, el cual garantiza el derecho a la libertad de expresión y comunicación, correlacionándolo con los derechos fundamentales a la intimidad y la honra. Utilizando la Sentencia T-277 de 2015, debes identificar cada uno de los elementos clave que permitan comprender cómo la Corte Constitucional abordó la ponderación de estos derechos en conflicto.
+    Es imprescindible que reconozcas los hechos jurídicamente relevantes que derivan de las pruebas presentadas y que analices cómo la Corte estructuró el problema jurídico en este caso. Particularmente, enfócate en cómo la Corte aplicó la metodología de ponderación para decidir sobre la colisión de derechos, estableciendo qué principios y valores constitucionales prevalecen en la situación específica.
+    Además, identifica si la Corte propuso o dejó en evidencia posibles mecanismos para garantizar la coexistencia de estos derechos en futuros casos. Esto incluye analizar las advertencias o pedagogías dirigidas a los jueces de instancia para abordar asuntos de libertad de expresión sin transgredir la intimidad y la honra de las personas involucradas. Por último, examina si en la decisión existen salvamentos o aclaraciones de voto y cómo estos reflejan los desafíos normativos que plantea la evolución jurisprudencial en esta materia.
+    Componentes del análisis:
+    1.	Identificación básica:
+    o	Número de la sentencia: T-277 de 2015.
+    o	Magistrado ponente.
+    o	Sala de decisión.
+    o	Aclaraciones de voto: magistrados y argumentos.
+    o	Salvamentos de voto: magistrados y fundamentos.
+    2.	Hechos jurídicamente relevantes:
+    o	Identificación y análisis de los hechos probados, documentales o testimoniales.
+    o	Relevancia de los hechos en la estructuración del problema jurídico.
+    3.	Problema jurídico:
+    o	Formulación del problema jurídico central que deriva del conflicto entre la libertad de expresión, la intimidad y la honra.
+    o	Análisis de la compatibilidad entre estos derechos en el caso específico.
+    4.	Normas jurídicas relevantes:
+    o	Artículo 20 de la Constitución Política de Colombia.
+    o	Jurisprudencia previa en materia de ponderación de derechos fundamentales.
+    o	Instrumentos internacionales aplicables a la libertad de expresión y protección de la honra e intimidad.
+    5.	Decisión y resolución:
+    o	Evaluación de la argumentación utilizada por la Corte para resolver el conflicto de derechos.
+    o	Análisis de los principios constitucionales aplicados (proporcionalidad, necesidad, idoneidad, etc.).
+    o	Identificación de posibles advertencias o pedagogías dirigidas a jueces de instancia.
+    6.	Ponderación y metodología:
+    o	Revisión de cómo la Corte aplicó la ponderación para garantizar la protección armónica de los derechos en conflicto.
+    o	Análisis de las razones que justificaron la prevalencia de uno de los derechos frente a los otros.
+    7.	Mecanismos propuestos:
+    o	Identificación de medidas adoptadas o sugeridas para equilibrar la libertad de expresión con la intimidad y la honra.
+    o	Revisión de las implicaciones para la evolución normativa y la práctica judicial.
+    8.	Proyección y reinvención:
+    o	Propuesta de nuevas metodologías o enfoques para abordar conflictos similares en el futuro.
+    o	Inclusión de elementos interdisciplinarios (psicología, sociología) para mejorar la comprensión de los derechos en conflicto.
+    o	Análisis de posibles mejoras en la taxonomía jurídica aplicada por la Corte.
+    METODOLOGÍA INSTRUCCIONAL SENTENCIA CONSTITUCIONAL PROMPT ENGINEERING
+    Instrucciones para el análisis de sentencias de constitucionalidad (Sentencias "C") de la Corte Constitucional de Colombia
+    Categoría
+    1. Recordar
+    Reglas principales:
+    4.	La IA debe identificar y recuperar información relevante basada en palabras clave específicas.
+    5.	Priorizar sentencias o datos con mayor impacto jurídico o relevancia actual.
+    6.	Presentar información de forma cronológica para facilitar el análisis contextual.
+    Subreglas:
+    6.	Identificar metadatos relacionados con los hechos relevantes de cada caso.
+    7.	Jerarquizar resultados según precedentes constitucionales y penales.
+    Simulación del diálogo:
+    "Chat, necesito que realices un análisis detallado de una demanda de inconstitucionalidad presentada contra un artículo, parágrafo o expresión específica de una norma, para determinar cómo la Corte Constitucional estructuró su decisión y cuáles fueron los fundamentos utilizados. Es crucial que identifiques los elementos esenciales de la demanda, como los argumentos presentados por el demandante, las razones por las cuales considera que la norma o disposición vulnera la Constitución, y los sustentos jurídicos que respaldan su postura.
+    Además, debes analizar cómo la Corte abordó la separación de poderes en este caso, dado que la interpretación de normas puede tener implicaciones significativas en el equilibrio institucional. Examina si la Corte utilizó precedentes nacionales e internacionales, y cómo incorporó principios derivados de tratados, convenciones, o jurisprudencia de tribunales internacionales, como la Corte Interamericana de Derechos Humanos o la Corte Europea de Derechos Humanos.
+    Específicamente, necesito que desgloses cómo se formuló el problema jurídico en el caso y cómo se organizó el estudio de la norma demandada. Esto incluye el examen de su constitucionalidad frente al bloque de constitucionalidad, los principios de supremacía constitucional y los derechos fundamentales. Por último, analiza si la Corte realizó advertencias, pedagogías o recomendaciones para futuras interpretaciones legislativas o judiciales y cómo fundamentó su decisión final con base en la ponderación de derechos y principios constitucionales."
+    Componentes del análisis:
+    1.	Identificación básica:
+    o	Número de la sentencia (Sentencia "C").
+    o	Norma demandada (artículo, parágrafo, o expresión específica).
+    o	Demandante: naturaleza jurídica (persona natural, jurídica, ONG, etc.).
+    o	Magistrado ponente.
+    o	Sala plena de decisión.
+    2.	Contexto de la norma demandada:
+    o	Identificación de la ley o decreto donde se encuentra la norma cuestionada.
+    o	Relevancia de la norma dentro del ordenamiento jurídico.
+    o	Breve exposición de los antecedentes legislativos o políticos que llevaron a su promulgación.
+    3.	Argumentos del demandante:
+    o	Razones específicas por las cuales la norma es considerada inconstitucional.
+    o	Identificación de los derechos fundamentales presuntamente vulnerados.
+    o	Relación entre la norma y la violación de principios constitucionales, como la igualdad, el debido proceso, o la dignidad humana.
+    o	Ejemplos concretos de la afectación derivada de la norma, si los hay.
+    4.	Problema jurídico:
+    o	Formulación del problema jurídico por parte de la Corte.
+    o	Estructuración del análisis: ¿El problema central se relaciona con el contenido material de la norma, su procedimiento de creación, o ambos?
+    5.	Análisis de la Corte Constitucional:
+    o	Metodología aplicada por la Corte para estudiar la norma demandada (control material, control formal, bloque de constitucionalidad).
+    o	Interpretación de los principios constitucionales y los derechos fundamentales afectados.
+    o	Uso de pruebas documentales, contextuales o doctrinales en la valoración del caso.
+    6.	Escenario internacional:
+    o	Análisis de cómo la Corte integró principios del derecho internacional en su decisión.
+    o	Referencia a tratados internacionales, como la Convención Americana sobre Derechos Humanos o el Pacto Internacional de Derechos Civiles y Políticos.
+    o	Uso de jurisprudencia de tribunales internacionales para enriquecer el debate.
+    7.	Decisión final:
+    o	Conclusiones de la Corte sobre la inconstitucionalidad o constitucionalidad de la norma.
+    o	Condicionamientos a la norma (si fue declarada exequible, pero con restricciones, inexequible, demanda inepta, etc.).
+    o	Recomendaciones o advertencias dirigidas al legislador o a otras ramas del poder público.
+    8.	Salvamentos o aclaraciones de voto:
+    o	Identificación de magistrados que presentaron salvamentos o aclaraciones.
+    o	Argumentos esgrimidos en estos documentos.
+    o	Relevancia de estas posiciones disidentes para el desarrollo jurisprudencial futuro.
+    9.	Proyección y análisis crítico:
+    o	Evaluación de los desafíos concretos que plantea la decisión para el sistema jurídico colombiano.
+    o	Propuestas para futuras interpretaciones legislativas o judiciales sobre temas similares.
+    o	Impacto de la decisión en la garantía de derechos fundamentales y el equilibrio de poderes.
+    10.	METODOLOGÍA INSTRUCCIONAL TUTELA CONTRA PROVIDENCIA JUDICIAL PROMPT ENGINEERING
+    Instrucciones para el análisis de las sentencias de tutela contra providencias judiciales
+    Simulación del diálogo inicial:
+    "Chat, necesito que desarrolles un análisis completo sobre la procedencia de la acción de tutela contra providencias judiciales en Colombia, considerando las reglas, subreglas y excepciones establecidas por la Corte Constitucional. Es crucial que estructures el análisis tomando como base el artículo 86 de la Constitución Política, el Decreto 2591 de 1991, y la evolución jurisprudencial, especialmente la Sentencia SU-627 de 2015. Identifica y explica de manera exhaustiva los criterios para determinar si procede la tutela, los tipos de derechos fundamentales protegidos, y las razones por las cuales se alega una vulneración.
+    Además, incluye una perspectiva diferencial y un enfoque de derechos humanos para abordar casos relacionados con género, minorías étnicas, población migrante, personas privadas de la libertad, niños y niñas, entre otros. Es necesario que analices cómo la Corte Constitucional ha establecido las reglas para su procedencia, detallando los defectos sustantivos, procedimentales y orgánicos que habilitan la intervención del juez constitucional. Por último, examina cómo la Corte estructura el problema jurídico y cuáles son los desafíos éticos y jurídicos que surgen de estas decisiones."
+    Componentes del análisis:
+    1.	Identificación básica del caso:
+    o	Número de sentencia analizada (por ejemplo, SU-627 de 2015).
+    o	Magistrado ponente.
+    o	Sala de decisión (sala plena o sala de revisión).
+    o	Naturaleza del caso: breve descripción de los hechos que originaron la tutela contra la providencia judicial.
+    2.	Fundamentos normativos:
+    o	Constitución Política de Colombia, artículo 86: Análisis del derecho fundamental a la tutela y las garantías asociadas.
+    o	Decreto 2591 de 1991: Disposiciones aplicables, especialmente los artículos que regulan la procedencia de la tutela y su carácter subsidiario.
+    3.	Requisitos de procedencia de la tutela contra providencias judiciales:
+    Según la Sentencia C-590 de 2005, la tutela contra providencias judiciales procede únicamente bajo criterios estrictos:
+    o	Subsidiariedad: Se debe demostrar que no existen otros mecanismos judiciales eficaces para la protección del derecho fundamental vulnerado.
+    o	Inmediatez: La acción de tutela debe ser interpuesta en un plazo razonable desde el momento de la vulneración.
+    o	Identificación clara del defecto:
+    	Defecto sustantivo: Aplicación de normas contrarias a la Constitución o interpretación que desconoce precedentes constitucionales.
+    	Defecto procedimental absoluto: Desconocimiento de las reglas del debido proceso.
+    	Defecto orgánico: Actuación judicial por parte de un juez incompetente.
+    	Error inducido: Decisión basada en pruebas o información errónea proporcionada de manera fraudulenta.
+    	Decisión sin motivación: Falta de argumentación suficiente en la providencia judicial.
+    	Desconocimiento del precedente constitucional: Decisiones que ignoran jurisprudencia vinculante.
+    	Violación directa de la Constitución: Contradicción directa con disposiciones constitucionales.
+    	Fallo fraudulento
+    Debes entender que estas reglas y subreglas operan así:
+    1. Defecto orgánico
+    •	Descripción: Se presenta cuando el juez que dicta la providencia carece de competencia para emitirla.
+    •	Regla: La competencia del juez debe derivar de una norma jurídica expresa, y su violación implica una afectación directa al debido proceso.
+    •	Jurisprudencia relevante: Sentencia T-231 de 1994, que establece los principios básicos sobre la competencia como elemento esencial del debido proceso.
+    2. Defecto procedimental absoluto
+    •	Descripción: Ocurre cuando el juez desconoce un procedimiento legalmente establecido, afectando gravemente el debido proceso de las partes.
+    •	Regla: La irregularidad debe ser evidente y de tal magnitud que impacte de manera sustancial el resultado del proceso.
+    •	Jurisprudencia relevante: Sentencia SU-159 de 2002, que define los criterios para evaluar violaciones al debido proceso.
+    3. Defecto fáctico
+    •	Descripción: Se configura cuando el juez omite valorar pruebas determinantes, valora pruebas de forma irrazonable, o se basa en pruebas inexistentes.
+    •	Regla: Debe demostrarse que la omisión o la valoración errónea afectaron directamente la decisión adoptada en la providencia.
+    •	Jurisprudencia relevante: Sentencia T-442 de 1994, que analiza cómo la valoración probatoria puede generar vulneraciones de derechos.
+    4. Defecto sustantivo
+    •	Descripción: Se presenta cuando la providencia aplica una norma inaplicable, inexistente, o contraria a la Constitución.
+    •	Regla: Debe haber una contradicción directa entre la norma aplicada y los principios constitucionales.
+    •	Jurisprudencia relevante: Sentencia SU-622 de 2001, que desarrolla el control de constitucionalidad en las decisiones judiciales.
+    5. Error inducido
+    •	Descripción: Se da cuando el juez es llevado a incurrir en un error grave por la actuación fraudulenta de una de las partes.
+    •	Regla: Es necesario demostrar el fraude y que este error afectó de manera directa la decisión judicial.
+    •	Jurisprudencia relevante: Sentencia T-079 de 1993, que establece cómo los errores inducidos socavan la administración de justicia.
+    6. Decisión sin motivación
+    •	Descripción: Se configura cuando la providencia carece de argumentos que sustenten y justifiquen la decisión.
+    •	Regla: Todas las decisiones judiciales deben estar debidamente motivadas, respetando el derecho a un debido proceso.
+    •	Jurisprudencia relevante: Sentencia T-292 de 2006, que analiza el principio de motivación como elemento fundamental del proceso judicial.
+    7. Desconocimiento del precedente
+    •	Descripción: Ocurre cuando el juez desconoce arbitraria o injustificadamente un precedente judicial vinculante.
+    •	Regla: El precedente debe ser aplicable al caso y la desvinculación debe estar debidamente motivada.
+    •	Jurisprudencia relevante: Sentencia T-292 de 2006, que refuerza la obligatoriedad del precedente como garantía de igualdad y seguridad jurídica.
+    8. Violación directa de la Constitución
+    •	Descripción: Se da cuando la providencia judicial desconoce principios, derechos o valores consagrados en la Constitución.
+    •	Regla: El juez debe garantizar la supremacía de la Constitución sobre cualquier norma o decisión judicial.
+    •	Jurisprudencia relevante: Sentencia SU-917 de 2010, que refuerza la prevalencia de los derechos fundamentales.
+    9. Providencia fraudulenta
+    •	Descripción: Se configura cuando la decisión judicial es el resultado de actuaciones fraudulentas que afectan gravemente el contenido y la legitimidad del fallo.
+    •	Regla: Debe demostrarse de manera clara que el fraude incidió en la decisión judicial, comprometiendo su validez y justicia.
+    •	Jurisprudencia relevante: Sentencia SU-627 de 2015, que consolidó esta causal al analizar casos de sentencias obtenidas mediante engaños o fraudes procesales.
+    También debes tener presente: 
+    4.	Poblaciones específicas y enfoque diferencial:
+    o	Género: Casos relacionados con mujeres víctimas de violencia de género o discriminación estructural.
+    o	Étnico: Vulneraciones contra comunidades indígenas o afrodescendientes, considerando sus derechos colectivos.
+    o	Niñez: Casos donde los derechos de niños, niñas y adolescentes son ignorados por decisiones judiciales.
+    o	Población migrante: Protección de derechos fundamentales de migrantes frente a providencias judiciales que desconocen sus garantías.
+    o	Personas privadas de la libertad: Situaciones de vulneración de derechos en materia carcelaria.
+    5.	Construcción del problema jurídico:
+    o	Análisis de cómo la Corte Constitucional formula el problema jurídico, basándose en la tensión entre la autonomía judicial y la garantía de los derechos fundamentales.
+    o	Identificación de los derechos en conflicto y la necesidad de ponderación.
+    6.	Estructura del análisis de la Corte Constitucional:
+    o	Valoración de las pruebas: Evaluación de los documentos aportados y su relevancia en el caso concreto.
+    o	Interpretación constitucional: Relación entre los hechos del caso y el marco constitucional aplicable.
+    o	Resolución:
+    	Decisión de la Corte sobre la procedencia de la tutela.
+    	Reglas y subreglas que establece para casos similares.
+    	Pedagogía dirigida a los jueces y otros operadores jurídicos sobre el manejo de tutelas contra providencias judiciales.
+    7.	Decisión final y elementos complementarios:
+    o	Resolución adoptada por la Corte.
+    o	Salvamentos o aclaraciones de voto, si los hubo.
+    o	Impacto de la decisión en la jurisprudencia constitucional.
+    8.	Proyección y desafíos:
+    o	Análisis de los retos éticos y jurídicos que plantea el uso de la tutela contra providencias judiciales.
+    o	Propuestas para fortalecer la coherencia entre la autonomía judicial y la protección de los derechos fundamentales.
+
 Con base en las anteriores instrucciones, proporciona una respesta de:
     {context}
 

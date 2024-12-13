@@ -1,31 +1,52 @@
+# Pandas para manipulación y análisis de datos
 import pandas as pd
+# MongoDB Atlas Vector Search para búsquedas vectoriales en MongoDB
 from langchain_mongodb import MongoDBAtlasVectorSearch
+# Cargador de documentos de MongoDB para Langchain
 from langchain_community.document_loaders.mongodb import MongodbLoader
+# Permite la ejecución de código asíncrono en notebooks
 import nest_asyncio
+# Cliente principal de MongoDB para conexión a la base de datos
 from pymongo.mongo_client import MongoClient
+# Manejo de variables de entorno y rutas del sistema
 import os
+# Carga de variables de entorno desde archivo .env
 from dotenv import load_dotenv
+# Embeddings de Nomic para procesamiento de texto
 from langchain_nomic import NomicEmbeddings
+# Driver de MongoDB para Python
 import pymongo
+# Manejo de datos en formato JSON
 import json
+# BeautifulSoup para parsing de HTML
 from bs4 import BeautifulSoup
+# Requests para realizar peticiones HTTP
 import requests
+# Embeddings de OpenAI para procesamiento de texto
 from langchain_openai import OpenAIEmbeddings
+# Plantillas de chat para Langchain
 from langchain_core.prompts import ChatPromptTemplate
+# Modelo de chat de OpenAI
 from langchain_openai import ChatOpenAI
+# Parser de salida para cadenas de texto
 from langchain_core.output_parsers import StrOutputParser
+# Componentes ejecutables de Langchain
 from langchain_core.runnables import RunnablePassthrough
+# Integración con Ollama para modelos de lenguaje
 from langchain_ollama import ChatOllama
+# Integración con Groq para chat
 from langchain_groq import ChatGroq
 
-
 load_dotenv()
+# Establece el User-Agent para identificar nuestra aplicación en las solicitudes HTTP
+# Esto ayuda a los servidores web a identificar qué software está haciendo las peticiones
 os.environ["USER_AGENT"] = "MyApp/1.0"
-os.environ["OPENAI_API_KEY"] = os.getenv('OPENAI_API_KEY')
-os.environ["LANGCHAIN_API_KEY"] = os.getenv('LANGCHAIN_API_KEY')
-os.environ["GROQ_API_KEY"] = os.getenv('GROQ_API_KEY')
+os.environ["OPENAI_API_KEY"] = os.getenv('OPENAI_API_KEY', '')
+os.environ["LANGCHAIN_API_KEY"] = os.getenv('LANGCHAIN_API_KEY', '')
+os.environ["GROQ_API_KEY"] = os.getenv('GROQ_API_KEY', '')
 client = pymongo.MongoClient(os.environ['MONGODB_URI'])
 collections = client.get_database(os.environ['MONGODB_DB']).get_collection(os.environ['MONGODB_COLLECTION'])
+chain = None
 
 # Función para realizar scraping y guardar resultados
 def scraping_sentencias(termino_de_busqueda):
@@ -33,9 +54,12 @@ def scraping_sentencias(termino_de_busqueda):
     termino_de_busqueda = termino_de_busqueda.replace(' ', '+')
     URL = 'https://www.corteconstitucional.gov.co/relatoria/buscador_new/?searchOption=texto&fini=1992-01-01&ffin=2024-10-29&buscar_por='+ termino_de_busqueda +'&accion=search&verform=si&slop=1&volver_a=relatoria&qu=625&maxprov=100&OrderbyOption=des__score'
 
+    # Inicializar soup como None
+    soup = None
+
     # Realizar la solicitud GET a la página
     response = requests.get(URL)
-
+    
     # Verificar si la solicitud fue exitosa
     if response.status_code == 200:
         # Parsear el contenido HTML con BeautifulSoup
@@ -45,6 +69,7 @@ def scraping_sentencias(termino_de_busqueda):
         enlaces = [a['href'] for a in soup.find_all('a', href=True)]
     else:
         print(f"Error al acceder a la página: {response.status_code}")
+        return
 
     # crear una lista con los enlaces obtenidos anteriormente
 
@@ -71,23 +96,28 @@ def scraping_sentencias(termino_de_busqueda):
             nota = requests.get(enlace)
             nota.raise_for_status()  # Verifica si hubo algún problema con la respuesta HTTP
             s_nota = BeautifulSoup(nota.text, 'html.parser')
-            texto = (s_nota.find('div', attrs={'class': 'WordSection1'}).text).strip()
-            diccionario_relatorias[enlace] = texto
+            # First try WordSection1
+            word_section = s_nota.find('div', attrs={'class': 'WordSection1'})
+            if word_section is not None:
+                texto = word_section.text.strip()
+                diccionario_relatorias[enlace] = texto
+            else:
+                # If WordSection1 not found, try Section1
+                section1 = s_nota.find('div', attrs={'class': 'Section1'})
+                if section1 is not None:
+                    texto = section1.text.strip()
+                    diccionario_relatorias[enlace] = texto
+                else:
+                    print(f"No se encontró el contenido esperado en el enlace {enlace}")
         except requests.exceptions.RequestException as e:
             print(f"Error al solicitar el enlace {enlace}: {e}")
-        except AttributeError:
-            try:
-                # Si no encuentra 'WordSection1', intenta con 'Section1'
-                texto = (s_nota.find('div', attrs={'class': 'Section1'}).text).strip()
-                diccionario_relatorias[enlace] = texto
-            except AttributeError as e:
-                print(f"Error procesando el contenido del enlace {enlace}: {e}")
 
     diccionario_relatorias
 
     # convertir el diccionario en un df de pandas
-
-    df = pd.DataFrame(list(diccionario_relatorias.items()), columns=['Enlace', 'Texto'])
+    items = list(diccionario_relatorias.items())
+    df = pd.DataFrame(items)
+    df.columns = ['Enlace', 'Texto']
 
     df['Sentencia'] = df['Enlace'].str.split('/relatoria/').str[-1].str.split('.htm').str[0]
 
@@ -142,7 +172,7 @@ def cargar_template():
     except FileNotFoundError:
         raise ValueError("No se encontró el archivo template_T.txt en la carpeta prompts")
 
-# Conficuración de la conexión con MongoDB Atlas
+# Configuración de la conexión con MongoDB Atlas
 def configurar_modelo():
 
     nest_asyncio.apply()
@@ -194,9 +224,9 @@ def configurar_modelo():
     )
 
     return chain
-chain = None
-
+    
 def initialize_chain():
+    global chain
     try:
         chain = configurar_modelo()
         return chain
@@ -206,3 +236,7 @@ def initialize_chain():
 
 def clear_collection():
     collections.delete_many({})
+
+if __name__ == "__main__":
+    cargar_template()
+    initialize_chain()

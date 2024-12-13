@@ -22,6 +22,12 @@ def initialize_session_state():
         st.session_state.text_input = ""
     if 'recorder' not in st.session_state:
         st.session_state.recorder = AudioRecorder()
+    if 'chat_history' not in st.session_state:
+        st.session_state.chat_history = []
+    if 'chain' not in st.session_state:
+        st.session_state.chain = None
+    if 'diccionario_relatorias' not in st.session_state:
+        st.session_state.diccionario_relatorias = {}
 
 def handle_recording():
     """Maneja la lógica de grabación"""
@@ -87,10 +93,6 @@ def main():
 
     st.title("Análisis de Sentencias - Corte Constitucional")
 
-    if 'chain' not in st.session_state:
-        st.session_state.chain = None
-        clear_collection()
-
     st.sidebar.header("Buscar Sentencias")
     termino_de_busqueda = st.sidebar.text_input("Ingrese el término de búsqueda", "")
 
@@ -103,7 +105,7 @@ def main():
                     # Limpiar el historial y la cadena anterior
                     st.session_state.chat_history = []
                     clear_collection()
-                    diccionario_relatorias = scraping_sentencias(termino_de_busqueda)
+                    st.session_state.diccionario_relatorias = scraping_sentencias(termino_de_busqueda)
                     st.session_state.chain = initialize_chain()
                     st.sidebar.success("Búsqueda completada")
                 except Exception as e:
@@ -115,9 +117,9 @@ def main():
         termino_de_busqueda = st.session_state.termino
         st.sidebar.info("Resultados encontrados:")
 
-        if diccionario_relatorias:
-            for enlace, texto in diccionario_relatorias.items():
-                st.success(f"Enlace: {enlace}, Total enlaces: {len(diccionario_relatorias)}")
+        if st.session_state.diccionario_relatorias:
+            for enlace, texto in st.session_state.diccionario_relatorias.items():
+                st.success(f"Enlace: {enlace}, Total enlaces: {len(st.session_state.diccionario_relatorias)}")
         else:
             st.error("No se encontraron resultados para este término")
 
