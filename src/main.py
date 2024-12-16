@@ -1,5 +1,5 @@
 import streamlit as st
-from analisisPenal import scraping_sentencias, initialize_chain, clear_collection
+from analisis_chroma import scraping_sentencias, configurar_modelo, clear_collection
 import logging
 import os
 from record_audio import record_audio
@@ -112,28 +112,22 @@ def main():
                     # Limpiar el historial y la cadena anterior
                     st.session_state.chat_history = []
                     clear_collection()
-                    st.session_state.diccionario_relatorias = scraping_sentencias(termino_de_busqueda)
+                    success = scraping_sentencias(termino_de_busqueda)
                     
-                    # Intentar inicializar el chain
-                    st.session_state.chain = initialize_chain()
-                    if st.session_state.chain is None:
-                        # Si el chain es None, significa que la base de datos estaba vacía
-                        # Intentamos inicializar de nuevo después del scraping
-                        st.session_state.chain = initialize_chain()
-                    
-                    st.session_state.search_results = len(st.session_state.diccionario_relatorias)
-                    st.sidebar.success(f"Búsqueda completada. Se encontraron {st.session_state.search_results} resultados.")
+                    if success:
+                        # Intentar inicializar el chain
+                        st.session_state.chain = configurar_modelo()
+                        if st.session_state.chain is None:
+                            st.sidebar.warning("No se encontraron resultados en la búsqueda.")
+                        else:
+                            st.sidebar.success("Búsqueda completada exitosamente.")
+                    else:
+                        st.sidebar.error("Error al realizar el scraping de sentencias.")
             except Exception as e:
                 st.session_state.last_error = str(e)
                 st.sidebar.error(f"Error al buscar sentencias: {e}")
             finally:
                 st.session_state.search_in_progress = False
-
-        # Mostrar resultados de búsqueda
-        if st.session_state.diccionario_relatorias:
-            with st.expander("Ver resultados de la búsqueda"):
-                for enlace in st.session_state.diccionario_relatorias.keys():
-                    st.write(f"- {enlace}")
 
         st.subheader("Chat para Análisis de Sentencias")
 
