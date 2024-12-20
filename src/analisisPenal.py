@@ -232,12 +232,67 @@ def scraping_sentencias(termino_de_busqueda):
 # Función para cargar plantilla de chat
 def cargar_template():
     """Carga todos los templates desde archivos externos"""
-    template_path = os.path.join(os.path.dirname(__file__), '..', 'prompts', 'template_T.txt')
-    try:
-        with open(template_path, 'r', encoding='utf-8') as file:
-            return file.read()
-    except FileNotFoundError:
-        raise ValueError("No se encontró el archivo template_T.txt en la carpeta prompts")
+    template = """Eres un asistente legal especializado en análisis jurídico exhaustivo. Tu tarea es proporcionar un análisis detallado y estructurado de sentencias judiciales, siguiendo este formato específico:
+
+1. METADATOS DEL CASO
+- Número de Expediente
+- Fecha de la Decisión
+- Accionante y Accionado
+- Magistrado Ponente
+- Tema Central del Caso
+- Derechos Fundamentales Involucrados
+
+2. CRONOLOGÍA DETALLADA
+- Línea de tiempo completa de los hechos relevantes
+- Fechas específicas de cada evento significativo
+- Desarrollo procesal del caso
+- Decisiones previas y sus fundamentos
+
+3. MARCO NORMATIVO APLICABLE
+- Artículos constitucionales relevantes
+- Leyes y decretos aplicables
+- Tratados internacionales pertinentes
+- Códigos y estatutos relacionados
+
+4. ARGUMENTOS PRINCIPALES
+- Argumentos de la parte accionante
+- Argumentos de la parte accionada
+- Consideraciones de instancias previas
+- Intervenciones relevantes
+
+5. ANÁLISIS DE PRUEBAS
+- Pruebas documentales presentadas
+- Testimonios y declaraciones
+- Peritajes y conceptos técnicos
+- Valoración probatoria realizada
+
+6. DEFECTOS IDENTIFICADOS
+- Defectos procedimentales
+- Defectos sustantivos
+- Defectos fácticos
+- Violaciones constitucionales
+
+7. CONCLUSIONES Y DECISIÓN
+- Ratio decidendi
+- Órdenes específicas
+- Salvamentos de voto
+- Efectos de la decisión
+
+Utiliza la siguiente información para generar tu respuesta: {context}
+
+Pregunta: {question}
+
+Instrucciones específicas:
+1. Proporciona MÍNIMO tres párrafos detallados para cada sección
+2. Incluye todas las fechas, números de expediente y referencias específicas
+3. Cita textualmente las partes más relevantes de la sentencia
+4. Explica el razonamiento detrás de cada argumento y decisión
+5. Relaciona cada punto con la normativa y jurisprudencia aplicable
+6. NO omitas detalles relevantes ni hagas resúmenes breves
+7. Mantén un lenguaje técnico-jurídico apropiado para jueces
+8. Incluye análisis crítico y conexiones con otros casos similares"""
+    
+    return template
 
 # Configuración de la conexión con MongoDB Atlas
 def configurar_modelo():
@@ -274,9 +329,9 @@ def configurar_modelo():
         # Configurar el retriever para mantener la riqueza del contexto
         retriever = vectorStore.as_retriever(
             search_kwargs={
-                "k": 5,  # Mantener más documentos relevantes para un análisis completo
-                "similarity_threshold": 0.7,  # Balance entre precisión y cobertura
-                "fetch_k": 10  # Búsqueda inicial amplia
+                "k": 500,  # Mantener más documentos relevantes para un análisis completo
+                "similarity_threshold": 0.2,  # Balance entre precisión y cobertura
+                "fetch_k": 700  # Búsqueda inicial amplia
             }
         )
 
@@ -288,9 +343,11 @@ def configurar_modelo():
 
         # Usar GPT-4 Turbo con ventana de contexto grande
         model = ChatOpenAI(
-            temperature=0,
+            temperature=1,
             model="gpt-4-1106-preview",
-            max_tokens=4096
+            max_tokens=4096,
+            presence_penalty=0.7,  # Añadido para fomentar elaboración
+            frequency_penalty=0.7  # Añadido para evitar repeticiones
         )
 
         chain = (
