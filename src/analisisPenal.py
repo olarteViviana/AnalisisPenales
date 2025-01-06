@@ -40,6 +40,9 @@ from langchain_ollama import ChatOllama
 from langchain_groq import ChatGroq
 # Integración con Groq para chat
 from langchain_groq import ChatGroq
+from litellm import completion
+from litellm import get_supported_openai_params
+from litellm import supports_response_schema
 
 load_dotenv()
 # Establece el User-Agent para identificar nuestra aplicación en las solicitudes HTTP
@@ -241,42 +244,56 @@ def cargar_template():
 - Magistrado Ponente
 - Tema Central del Caso
 - Derechos Fundamentales Involucrados
+- Tipo de Acción Legal
 
 2. CRONOLOGÍA DETALLADA
 - Línea de tiempo completa de los hechos relevantes
 - Fechas específicas de cada evento significativo
 - Desarrollo procesal del caso
 - Decisiones previas y sus fundamentos
+- Antecedentes procesales relevantes
 
 3. MARCO NORMATIVO APLICABLE
 - Artículos constitucionales relevantes
 - Leyes y decretos aplicables
 - Tratados internacionales pertinentes
 - Códigos y estatutos relacionados
+- Jurisprudencia relacionada
 
 4. ARGUMENTOS PRINCIPALES
 - Argumentos de la parte accionante
 - Argumentos de la parte accionada
 - Consideraciones de instancias previas
 - Intervenciones relevantes
+- Problemas jurídicos planteados
 
 5. ANÁLISIS DE PRUEBAS
 - Pruebas documentales presentadas
 - Testimonios y declaraciones
 - Peritajes y conceptos técnicos
 - Valoración probatoria realizada
+- Elementos probatoris determinantes
 
 6. DEFECTOS IDENTIFICADOS
 - Defectos procedimentales
 - Defectos sustantivos
 - Defectos fácticos
 - Violaciones constitucionales
+- Irregularidades procesales
 
 7. CONCLUSIONES Y DECISIÓN
 - Ratio decidendi
 - Órdenes específicas
 - Salvamentos de voto
 - Efectos de la decisión
+- Impacto jurisprudencial
+
+8. SENTENCIAS RELEVANTES
+- Sentencias tipo T citadas
+- Sentencias tipo C citadas
+- Sentencias tipo SU citadas
+- Sentencias tipo A citadas
+- Línea jurisprudencial relacionada
 
 Utiliza la siguiente información para generar tu respuesta: {context}
 
@@ -290,7 +307,11 @@ Instrucciones específicas:
 5. Relaciona cada punto con la normativa y jurisprudencia aplicable
 6. NO omitas detalles relevantes ni hagas resúmenes breves
 7. Mantén un lenguaje técnico-jurídico apropiado para jueces
-8. Incluye análisis crítico y conexiones con otros casos similares"""
+8. Incluye análisis crítico y conexiones con otros casos similares
+9. Identifica claramente la línea jurisprudencial y su evolución
+10. Destaca el impacto de la decisión en el ordenamiento jurídico
+11. No incluyas información irrelevante o redundante
+12. Asegúrate de listar todas las sentencias referenciadas"""
     
     return template
 
