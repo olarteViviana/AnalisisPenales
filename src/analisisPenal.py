@@ -1,48 +1,22 @@
-# Pandas para manipulación y análisis de datos
-import pandas as pd
-# MongoDB Atlas Vector Search para búsquedas vectoriales en MongoDB
-from langchain_mongodb import MongoDBAtlasVectorSearch
-# Cargador de documentos de MongoDB para Langchain
-from langchain_community.document_loaders.mongodb import MongodbLoader
-# Document class for creating document objects
-from langchain.schema import Document
-# Permite la ejecución de código asíncrono en notebooks
-import nest_asyncio
-# Cliente principal de MongoDB para conexión a la base de datos
-from pymongo.mongo_client import MongoClient
-# Manejo de variables de entorno y rutas del sistema
 import os
-# Carga de variables de entorno desde archivo .env
-from dotenv import load_dotenv
-# Embeddings de Nomic para procesamiento de texto
-from langchain_nomic import NomicEmbeddings
-# Driver de MongoDB para Python
-import pymongo
-# Manejo de datos en formato JSON
 import json
-# BeautifulSoup para parsing de HTML
-from bs4 import BeautifulSoup
-# Requests para realizar peticiones HTTP
 import requests
-# Embeddings de OpenAI para procesamiento de texto
+from bs4 import BeautifulSoup
+import re
+from datetime import datetime
+import nest_asyncio
+from dotenv import load_dotenv
+import pymongo
+import pandas as pd
+from pymongo import MongoClient
+from langchain.vectorstores.mongodb_atlas import MongoDBAtlasVectorSearch
+from langchain.document_loaders import MongodbLoader
 from langchain_openai import OpenAIEmbeddings
-# Plantillas de chat para Langchain
-from langchain_core.prompts import ChatPromptTemplate
-# Modelo de chat de OpenAI
-from langchain_openai import ChatOpenAI
-# Parser de salida para cadenas de texto
-from langchain_core.output_parsers import StrOutputParser
-# Componentes ejecutables de Langchain
-from langchain_core.runnables import RunnablePassthrough
-# Integración con Ollama para modelos de lenguaje
-from langchain_ollama import ChatOllama
-# Modelo de Groq para LLM
 from langchain_groq import ChatGroq
-# Integración con Groq para chat
-from langchain_groq import ChatGroq
-from litellm import completion
-from litellm import get_supported_openai_params
-from litellm import supports_response_schema
+from langchain.prompts import ChatPromptTemplate
+from langchain.schema.runnable import RunnablePassthrough
+from langchain.schema.output_parser import StrOutputParser
+from langchain.schema import Document
 
 load_dotenv()
 # Establece el User-Agent para identificar nuestra aplicación en las solicitudes HTTP
@@ -232,6 +206,23 @@ def scraping_sentencias(termino_de_busqueda):
         print(f"Error en el proceso de scraping: {str(e)}")
         raise
 
+# Función para descargar el modelo de Llama 2
+def descargar_modelo_llama():
+    model_path = "models/llama-2-13b-chat.gguf"
+    if not os.path.exists("models"):
+        os.makedirs("models")
+    
+    if not os.path.exists(model_path):
+        print("Descargando modelo Llama 2...")
+        huggingface_hub.hf_hub_download(
+            repo_id="TheBloke/Llama-2-13B-chat-GGUF",
+            filename="llama-2-13b-chat.Q4_K_M.gguf",
+            local_dir="models",
+            local_dir_use_symlinks=False
+        )
+        os.rename("models/llama-2-13b-chat.Q4_K_M.gguf", model_path)
+    return model_path
+
 # Función para cargar plantilla de chat
 def cargar_template():
     """Carga todos los templates desde archivos externos"""
@@ -347,12 +338,12 @@ def configurar_modelo():
             index_name=os.environ['MONGODB_VECTOR_INDEX']
         )
 
-        # Configurar el retriever para mantener la riqueza del contexto
+        # Configurar el retriever
         retriever = vectorStore.as_retriever(
             search_kwargs={
-                "k": 500,  # Mantener más documentos relevantes para un análisis completo
-                "similarity_threshold": 0.2,  # Balance entre precisión y cobertura
-                "fetch_k": 700  # Búsqueda inicial amplia
+                "k": 500,
+                "similarity_threshold": 0.2,
+                "fetch_k": 700
             }
         )
 
@@ -362,13 +353,14 @@ def configurar_modelo():
             
         prompt = ChatPromptTemplate.from_template(template)
 
-        # Usar GPT-4 Turbo con ventana de contexto grande
-        model = ChatOpenAI(
+        # Usar Llama 3.3 70B en Groq
+        model = ChatGroq(
             temperature=1,
-            model="gpt-4-1106-preview",
+            model_name="llama-3.3-70b-versatile",
             max_tokens=4096,
-            presence_penalty=0.7,  # Añadido para fomentar elaboración
-            frequency_penalty=0.7  # Añadido para evitar repeticiones
+            presence_penalty=0.7,
+            frequency_penalty=0.7,
+            groq_api_key=os.environ['GROQ_API_KEY']
         )
 
         chain = (
@@ -399,5 +391,8 @@ def clear_collection():
     collections.delete_many({})
 
 if __name__ == "__main__":
+    from langchain.chat_models import ChatOpenAI
+    from langchain_groq import ChatGroq
+    from langchain.prompts import ChatPromptTemplate
     cargar_template()
     initialize_chain()
